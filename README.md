@@ -71,6 +71,19 @@ harbor run -p staging-smoke-access --agent nop --env docker --yes
 | Implementation rubric review | not run | Hosted LLM review in CI |
 | AI-detection check | not run | Needs a GPTZero API key |
 
+### Final status (current version = iteration 5)
+
+| Requirement | Result |
+|---|---|
+| Static checks | ✅ 26/26 |
+| Docker build, oracle, nop | ✅ builds; oracle 1.0, nop 0.0 |
+| `/run`, claude-code + `claude-fable-5-1` (max), 3 trials | ❌ 1 of 3 failed (2 solved): [run 37185326822](https://github.com/RobOHt/tb3-staging-smoke-access/actions/runs/37185326822) |
+| `/cheat`, claude-code, 1 trial | ✅ reward 0 |
+| `/run` and `/cheat` with codex + `gpt-6-astra` | not run (no Codex subscription) |
+| Implementation rubric review, AI-detection check | not run (hosted CI / GPTZero key) |
+
+All trials fell back from Fable 5.1 to Opus 4.8 after the first turn (expected, see below). Across the two iteration-5 runs, `/run` failed 3 times and solved 3 times out of 6. The task is solvable by piecing the clues together, and agents that did so said exactly which fragments they used. It does not meet the "all three trials fail" bar. The iterations below show how it got here.
+
 ### Iteration 1 (explicit constraint)
 
 GitHub Actions run [37179764039](https://github.com/RobOHt/tb3-staging-smoke-access/actions/runs/37179764039), one trial per runner, all four in parallel.
