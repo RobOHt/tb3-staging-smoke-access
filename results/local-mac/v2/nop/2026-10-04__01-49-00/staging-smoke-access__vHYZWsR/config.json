@@ -1,0 +1,11 @@
+{
+    "task": {
+        "path": "staging-smoke-access"
+    },
+    "trial_name": "staging-smoke-access__vHYZWsR",
+    "trials_dir": "<repo>/runs/nop2/2026-10-04__01-49-00",
+    "agent": {
+        "name": "nop"
+    },
+    "job_id": "42364400-d460-4bd0-ab88-db2d79e00b37"
+}

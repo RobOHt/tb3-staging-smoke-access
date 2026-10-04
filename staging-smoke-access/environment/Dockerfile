@@ -14,6 +14,7 @@ RUN chmod +x /usr/local/bin/devaccess /usr/local/bin/allowlist-request
 
 # The orderflow dev checkout and the corpus generator.
 COPY orderflow /app/orderflow
+COPY session /app/session
 COPY generate_corpus.py /opt/generate_corpus.py
 
 # Materialize the workspace (repo, wiki, infra, slack corpus) at build time so
