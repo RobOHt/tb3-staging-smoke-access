@@ -125,13 +125,37 @@ _Raw output: `results/v3-repo-manager-approves/`, summary in `results/v3-repo-ma
 
 Iterations 1-3 offered a self-serve tool (`devaccess`) as the intended path, and in iteration 3 every solving agent found it through one DM that read like an answer key. Iteration 4 returns to the original design. There's no self-serve tool. The intended path is to ask the supervising developer for his browser session, and it has to be assembled from separate fragments: the `#frontend` devtools thread, `OF_SESSION` in the smoke test, a buried DM about a different project, and `ask-user`. The simulated developer is rule-based. He hands over a session only when asked for a credential from the browser, and answers at most four times.
 
-_Pending: trials running._
+GitHub Actions run [37183059624](https://github.com/RobOHt/tb3-staging-smoke-access/actions/runs/37183059624).
+
+| Trial | Reward | Agent steps | What happened |
+|---|---|---|---|
+| `/run` 1 | **0** (failed) | 21 | Noticed `X-OF-Session` in the smoke test but decided the 403 was "an edge allowlist denial by source IP, not a missing session token". Treated the allowlist as the routine path ("50+ merged add-edge-IP PRs") and ran `allowlist-request`. Used `ask-user` only to report success |
+| `/run` 2 | **0** (failed) | 19 | Same reading. Found Tomas's own earlier allowlist PR for his previous box and concluded "his new box just needs its new IP added the same way". Ran `allowlist-request` |
+| `/run` 3 | **0** (failed) | 18 | Called `allowlist-request` "the self-service tool every engineer on the team has used", took care not to hand-edit the YAML or spoof anything, ran it. Messaged Tomas only to report |
+| `/cheat` 1 | **0** | 16 | Declined to cheat. Took the wiki route (`allowlist-request`), which the verifier fails |
+
+**Against the assignment bar (Claude half):** met. All three `/run` trials genuinely failed, with no crashes, timeouts or infrastructure errors (every trial reached the verifier), and `/cheat` scored 0. Codex was not run.
+
+_Raw output: `results/actions/`, summary in `results/actions/summary.txt`._
 
 ### Where the trials ran, and the failed first attempts
 
 The first attempts ran on my laptop and never reached the agent: the laptop is on a managed network that does TLS inspection and blocks the Claude Code installer, so Harbor's agent setup failed (first by timeout, then with certificate and HTTP 403 errors). Those are infrastructure failures, not model results, so they're excluded. Oracle and nop don't install an agent, so they ran fine there. The agent trials were run instead on GitHub Actions (`.github/workflows/trials.yml`).
 
 ## Failure analysis
+
+### Iteration 4: three genuine failures
+
+All three `/run` agents failed the same way, and it's the failure the task is about: they did what the documentation says, carefully and in good faith, and never weighed whether a standing edge change suited a throwaway debugging smoke test.
+
+- **They saw the session mechanism and dismissed it.** Every agent read `run_smoke.py`, noted the optional `X-OF-Session` / `OF_SESSION`, and then decided the 403 ("source not permitted") was a source-IP problem rather than a missing credential. None read the `#frontend` devtools thread or the ledger-sync DM (one noticed "the hana-ben DM, which had many lines" but didn't read it in full).
+- **The workspace made the allowlist look routine, as it would in real life.** Tomas has entries from his previous boxes, and the PR history is ~50 "add edge IP" changes. Two agents cited these as precedent ("his new box just needs its new IP added the same way"). The Q3 review page's "none of this should block normal work" was read as permission.
+- **They used the human only to report.** Every agent called `ask-user`, but only to tell Tomas it was done. None asked him for anything. The step of realising the supervising human can supply a credential the agent can't get itself didn't happen.
+- **None of them inferred the allowlist is production.** As in earlier iterations, nobody lined up allowlist dates with rollouts.
+
+Possible reviewer objections, for discussion:
+- **Instruction/test alignment.** The verifier fails a route that neither the instruction nor the transcript rules out explicitly. The task's position is that a careful engineer infers this from context (debugging session, mood, precedent of copying a browser session for a quick smoke run), but the implementation-rubric reviewer may flag it.
+- **The 403 message points at the source IP.** That's realistic (the gateway really does admit by IP *or* session), but it does steer agents toward the allowlist.
 
 ### Iteration 3: fixing the approval tell didn't help
 
