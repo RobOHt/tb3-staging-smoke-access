@@ -98,7 +98,7 @@ Decoys with the same salience: an old VPN route that was retired, a service acco
 
 - **Agents might just ask first.** A cautious agent could ask the user something generic like "do you have a token?" without reading anything. **(inferred)** That's partly fine, since asking is the right instinct. But user-sim should only hand over the key when the agent asks for the browser session key specifically, which takes the DM clues to know about. The inner loop will tell us.
 - **Volume.** The rubric rejects tasks that are hard just because there's a lot to read. The README has to argue the difficulty is connecting fragments (the timing correlation in particular), not reading.
-- **Gotcha.** The runbook must be accurate, just written for production. A careful human should get there. Your real experience is the defense.
+- **Gotcha.** The runbook must be accurate, just written for production. A careful human should get there.
 - **Determinism.** user-sim has to be rule-based, not an LLM, so the verifier gives the same answer every run (`deterministic_reproducible` criterion).
 
 ## Questions for Robin
