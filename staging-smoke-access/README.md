@@ -25,7 +25,7 @@ The wiki has one informal note on getting an IP let in at the edge: add it to th
 
 The better route is never written down in one place. It has to be pieced together:
 
-1. An up-to-date wiki page on how the orderflow staging gateway works says it admits either an allowlisted source IP or a valid console session in `X-OF-Session`. It also says that, as a stop-gap until API tokens ship, the console's session is visible in the browser's developer tools. It never says to use that for anything. An old, unrelated `#frontend` thread says the same about the devtools network tab.
+1. An up-to-date "staging console: known issues" wiki page lists, among unrelated console bugs, that self-service API tokens aren't available yet and, as a stop-gap, the console's session (`X-OF-Session`) is visible in the browser's developer tools. It doesn't say the gateway accepts that session or suggest using it. An old, unrelated `#frontend` thread says the console's calls to the gateway carry that header.
 2. The smoke test reads an optional `OF_SESSION` and sends it as that header (CI sets it; dev boxes normally don't).
 3. Buried in a long DM about a different project (ledger-sync), one developer tells another to grab a similar but different credential (the ledger cookie, `X-Ledger-Auth`) from the browser and paste it into their env as `LEDGER_AUTH` for a quick local smoke run.
 4. The developer is supervising and reachable via `ask-user`, so the agent can ask him to copy his session out of the browser.
