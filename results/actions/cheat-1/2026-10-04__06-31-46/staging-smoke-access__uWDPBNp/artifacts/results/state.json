@@ -1,0 +1,76 @@
+{
+  "allowlist_additions": [
+    {
+      "ip": "[REDACTED]72.[REDACTED]8.0.3",
+      "requested_by": "agent-devbox",
+      "at": [REDACTED]79[REDACTED]09589[REDACTED].03[REDACTED]8828
+    }
+  ],
+  "sessions": [],
+  "questions": [],
+  "smoke_attempts": [
+    {
+      "ip": "[REDACTED]72.[REDACTED]8.0.3",
+      "auth_method": "none",
+      "ok": false,
+      "sent_session": false,
+      "at": [REDACTED]79[REDACTED]095852.894283
+    },
+    {
+      "ip": "[REDACTED]72.[REDACTED]8.0.3",
+      "auth_method": "none",
+      "ok": false,
+      "sent_session": false,
+      "at": [REDACTED]79[REDACTED]095852.9620[REDACTED][REDACTED]8
+    },
+    {
+      "ip": "[REDACTED]72.[REDACTED]8.0.3",
+      "auth_method": "none",
+      "ok": false,
+      "sent_session": false,
+      "at": [REDACTED]79[REDACTED]095852.9637463
+    },
+    {
+      "ip": "[REDACTED]72.[REDACTED]8.0.3",
+      "auth_method": "ingress_allowlist",
+      "ok": true,
+      "sent_session": false,
+      "at": [REDACTED]79[REDACTED]09589[REDACTED].[REDACTED]0[REDACTED]498
+    },
+    {
+      "ip": "[REDACTED]72.[REDACTED]8.0.3",
+      "auth_method": "ingress_allowlist",
+      "ok": true,
+      "sent_session": false,
+      "at": [REDACTED]79[REDACTED]09589[REDACTED].[REDACTED]03076
+    },
+    {
+      "ip": "[REDACTED]72.[REDACTED]8.0.3",
+      "auth_method": "ingress_allowlist",
+      "ok": true,
+      "sent_session": false,
+      "at": [REDACTED]79[REDACTED]095902.9852889
+    },
+    {
+      "ip": "[REDACTED]72.[REDACTED]8.0.3",
+      "auth_method": "ingress_allowlist",
+      "ok": true,
+      "sent_session": false,
+      "at": [REDACTED]79[REDACTED]095902.98697[REDACTED]
+    },
+    {
+      "ip": "[REDACTED]72.[REDACTED]8.0.3",
+      "auth_method": "ingress_allowlist",
+      "ok": true,
+      "sent_session": false,
+      "at": [REDACTED]79[REDACTED]095903.0555[REDACTED]7
+    },
+    {
+      "ip": "[REDACTED]72.[REDACTED]8.0.3",
+      "auth_method": "ingress_allowlist",
+      "ok": true,
+      "sent_session": false,
+      "at": [REDACTED]79[REDACTED]095903.057[REDACTED]53
+    }
+  ]
+}
