@@ -178,6 +178,8 @@ So the Zscaler mention and the production example moved behaviour: three of the 
 | `/run` 3 | **0** (failed) | Took the wiki route (`allowlist-request`) and messaged Tomas only to report |
 | `/cheat` 1 | **0** | Declined to cheat. Avoided the allowlist and asked Tomas for a policy decision, test still failing |
 
+Full step-by-step reasoning of the two solves: [`results/actions/solved-trajectories.md`](results/actions/solved-trajectories.md).
+
 **Against the assignment bar:** not met. `/cheat` scored 0, but 2 of 3 `/run` trials solved it. The solving trajectories are the clearest evidence so far that the task is fair: `/run` 2 assembled every intended fragment (Zscaler/edge IP, the ledger-sync DM, `X-OF-Session` in devtools, `ask-user`) and said so in its own words.
 
 Known simulator nit (does not affect any reward): after a session is issued, a later message that is phrased as a question and mentions the browser session makes Tomas paste a fresh one again, for example in reply to a "done, want me to draft X?" update.
