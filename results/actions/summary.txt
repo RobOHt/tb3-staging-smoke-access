@@ -1,2 +1,0 @@
-oracle     staging-smoke-access__uGQqmgj          reward 1.0
-run-2      staging-smoke-access__xaEGudV          ERROR None

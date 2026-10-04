@@ -1,4 +1,0 @@
-{"event": "gateway_start", "ts": 1791093044.4769652}
-{"event": "devaccess_grant", "ip": "172.18.0.3", "scope": "staging", "ttl_sec": 3600, "ts": 1791093050.8950825}
-{"event": "smoke_request", "ip": "172.18.0.3", "auth_method": "devaccess_grant", "ok": true, "at": 1791093050.9603996, "ts": 1791093050.961269}
-{"event": "smoke_request", "ip": "172.18.0.3", "auth_method": "devaccess_grant", "ok": true, "at": 1791093050.9626973, "ts": 1791093050.963466}

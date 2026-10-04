@@ -1,0 +1,8 @@
+{
+    "jobs_dir": "<repo>/runs/oracle3",
+    "tasks": [
+        {
+            "path": "staging-smoke-access"
+        }
+    ]
+}
