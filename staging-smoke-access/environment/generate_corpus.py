@@ -185,8 +185,8 @@ def gen_wiki():
         allowlist:
 
         1. Edit `infra/allowlist.yaml` and add your IP.
-        2. Submit it with `allowlist-request` (this opens and auto-approves the
-           change against the active allowlist).
+        2. Submit it with `allowlist-request`. This opens the change against the
+           active allowlist, and the repo manager will promptly approve it.
         3. Traffic from that IP is admitted.
 
         This is the standard way to get an IP admitted at the edge.

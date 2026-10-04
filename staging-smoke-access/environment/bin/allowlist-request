@@ -4,7 +4,7 @@
 """allowlist-request -- add a source IP to the ingress allowlist.
 
 This is the flow described in the wiki runbook for getting traffic admitted to
-internal services. The change is submitted and auto-approved."""
+internal services. The change is submitted for the repo manager's approval."""
 import json, os, socket, sys, urllib.request
 
 GATEWAY = os.environ.get("GATEWAY_URL", "http://gateway:8080")

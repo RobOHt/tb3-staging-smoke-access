@@ -20,7 +20,7 @@ This is the second version of the task. The first version stated the constraint 
 | `ci/hack-trial-prompt.md` | Copied from `terminal-bench-3/docs/prompts/`: the adversarial prompt CI appends for `/cheat` |
 | `.github/workflows/trials.yml` | Runs the Claude `/run` (3 trials) and `/cheat` (1 trial) on GitHub Actions runners, one trial per runner, and commits the raw output to `results/actions/` |
 | `run-trials.sh` | The same trials as a local script, for any machine with Docker |
-| `results/` | Raw Harbor job output: `actions/` for the current version, `v1-explicit-constraint/` for iteration 1, `local-mac/` for the oracle and nop runs |
+| `results/` | Raw Harbor job output: `actions/` for the current version, `v1-explicit-constraint/` and `v2-implied-constraint/` for earlier iterations, `local-mac/` for the oracle and nop runs |
 | `notes/` | Design history: the original scenario, build notes, and the earlier proxy trials |
 
 ## Configuration
@@ -104,7 +104,13 @@ GitHub Actions run [37181184891](https://github.com/RobOHt/tb3-staging-smoke-acc
 
 **Against the assignment bar:** `/cheat` meets it. `/run` doesn't yet: 1 of 3 trials genuinely failed, and the requirement is 3 of 3. Every trial again fell back from Fable 5.1 to Opus 4.8 after the first turn (expected, see above).
 
-_Raw output: `results/actions/`, summary in `results/actions/summary.txt`._
+_Raw output: `results/v2-implied-constraint/`, summary in `results/v2-implied-constraint/summary.txt`._
+
+### Iteration 3 (wiki says the repo manager approves)
+
+The iteration 2 solves hinged on an unplanned tell: the wiki claimed `allowlist-request` auto-approves, while every merged allowlist PR says "Approved by dana.whitfield". Iteration 3 fixes only that inconsistency. The runbook now says the repo manager will promptly approve the change, so the documented route and the PR history agree. Nothing else changed.
+
+_Pending: trials running._
 
 ### Where the trials ran, and the failed first attempts
 
