@@ -1,0 +1,13 @@
+{
+    "jobs_dir": "runs/nop",
+    "agents": [
+        {
+            "name": "nop"
+        }
+    ],
+    "tasks": [
+        {
+            "path": "staging-smoke-access"
+        }
+    ]
+}

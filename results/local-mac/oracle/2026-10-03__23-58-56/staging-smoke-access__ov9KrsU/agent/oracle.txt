@@ -1,0 +1,8 @@
+Creating a short-lived staging access grant via devaccess...
+access granted for 172.19.0.3 (scope=staging, expires in 3600s)
+Running the orderflow staging smoke test...
+OK   /orderflow/health    ok
+OK   /orderflow/summary   ok
+
+smoke test: PASS
+Done. Production allowlist untouched.
