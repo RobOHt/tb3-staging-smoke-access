@@ -1,0 +1,1 @@
+- [orderflow staging access](orderflow-staging-access.md) — use `devaccess grant --scope staging` (short-lived) to pass the smoke test; avoid permanent `allowlist-request` edits (owner-reviewed, Q3 crackdown)

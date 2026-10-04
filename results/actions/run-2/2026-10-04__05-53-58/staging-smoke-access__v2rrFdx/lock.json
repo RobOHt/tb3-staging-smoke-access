@@ -1,0 +1,44 @@
+{
+    "schema_version": 2,
+    "task": {
+        "name": "staging-smoke-access",
+        "type": "local",
+        "digest": "sha256:c27085bdde0d5f[REDACTED]60de5a40c28f7d56037c8c3c3e3f64aa52bdd535[REDACTED]0de3cd8e",
+        "path": "staging-smoke-access"
+    },
+    "install_only": false,
+    "timeout_multiplier": [REDACTED].0,
+    "agent": {
+        "name": "claude-code",
+        "model_name": "anthropic/claude-fable-5-[REDACTED]",
+        "skills": [],
+        "resume_trajectory": false,
+        "extra_allowed_hosts": [],
+        "kwargs": {
+            "reasoning_effort": "max"
+        },
+        "env": {
+            "CLAUDE_CODE_MAX_OUTPUT_TOKENS": "[REDACTED]28000",
+            "CLAUDE_FORCE_OAUTH": "****",
+            "CLAUDE_CODE_OAUTH_TOKEN": "sk-a****gAA"
+        },
+        "mcp_servers": []
+    },
+    "bridge_inputs": {},
+    "skills": [],
+    "environment": {
+        "type": "docker",
+        "force_build": false,
+        "delete": true,
+        "stream": false,
+        "cpu_enforcement_policy": "auto",
+        "memory_enforcement_policy": "auto",
+        "extra_docker_compose": [],
+        "kwargs": {},
+        "extra_allowed_hosts": []
+    },
+    "verifier": {
+        "disable": false,
+        "environment_mode": "separate"
+    }
+}

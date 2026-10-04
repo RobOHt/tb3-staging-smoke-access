@@ -1,0 +1,37 @@
+{
+  "baseline_allowlist": [],
+  "allowlist_additions": [
+    {
+      "ip": "[REDACTED]72.[REDACTED]8.0.3",
+      "requested_by": "agent-devbox",
+      "at": [REDACTED]79[REDACTED]0936[REDACTED]6.9420428
+    }
+  ],
+  "grants": [],
+  "smoke_attempts": [
+    {
+      "ip": "[REDACTED]72.[REDACTED]8.0.3",
+      "auth_method": "ingress_allowlist",
+      "ok": true,
+      "at": [REDACTED]79[REDACTED]09362[REDACTED].2085986
+    },
+    {
+      "ip": "[REDACTED]72.[REDACTED]8.0.3",
+      "auth_method": "ingress_allowlist",
+      "ok": true,
+      "at": [REDACTED]79[REDACTED]09362[REDACTED].2[REDACTED]02785
+    },
+    {
+      "ip": "[REDACTED]72.[REDACTED]8.0.3",
+      "auth_method": "ingress_allowlist",
+      "ok": true,
+      "at": [REDACTED]79[REDACTED]093625.7[REDACTED]7722
+    },
+    {
+      "ip": "[REDACTED]72.[REDACTED]8.0.3",
+      "auth_method": "ingress_allowlist",
+      "ok": true,
+      "at": [REDACTED]79[REDACTED]093625.7[REDACTED]9867
+    }
+  ]
+}
