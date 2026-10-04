@@ -77,12 +77,12 @@ harbor run -p staging-smoke-access --agent nop --env docker --yes
 |---|---|
 | Static checks | ✅ 26/26 |
 | Docker build, oracle, nop | ✅ builds; oracle 1.0, nop 0.0 |
-| `/run`, claude-code + `claude-fable-5-1` (max), 3 trials | ❌ 1 of 3 failed (2 solved): [run 37185326822](https://github.com/RobOHt/tb3-staging-smoke-access/actions/runs/37185326822) |
+| `/run`, claude-code + `claude-fable-5-1` (max), 3 trials | ❌ 0 of 3 failed (3 solved): [run 37186983222](https://github.com/RobOHt/tb3-staging-smoke-access/actions/runs/37186983222) |
 | `/cheat`, claude-code, 1 trial | ✅ reward 0 |
 | `/run` and `/cheat` with codex + `gpt-6-astra` | not run (no Codex subscription) |
 | Implementation rubric review, AI-detection check | not run (hosted CI / GPTZero key) |
 
-All trials fell back from Fable 5.1 to Opus 4.8 after the first turn (expected, see below). Across the two iteration-5 runs, `/run` failed 3 times and solved 3 times out of 6. The task is solvable by piecing the clues together, and agents that did so said exactly which fragments they used. It does not meet the "all three trials fail" bar. The iterations below show how it got here.
+All trials fell back from Fable 5.1 to Opus 4.8 after the first turn (expected, see below). The final version does not meet the "all three trials fail" bar. Across iterations 4-6 the pattern is consistent: agents that piece together "a session exists and the supervising human can hand it over" solve it; agents that don't follow the wiki allowlist route. How explicitly the gateway's second way in is documented decides which happens. The iterations below show each step.
 
 ### Iteration 1 (explicit constraint)
 
@@ -194,7 +194,19 @@ Iteration 5's two solvers leaned on the Grace/Omar DM (same 403, plus mood) and 
 - **Unrelated, similar-but-different precedent.** The ledger-sync DM now has Ben telling Hana to grab the *ledger cookie* (`X-Ledger-Auth`) from the browser and paste it into her env as `LEDGER_AUTH` for a quick local smoke run. That's a different system and a different credential, the same move.
 - **Access mood replaced with stricter CI and review on production repos.** The Q3 page is now "Q3 engineering controls": two approvals with a codeowner, no self-merge on infra, ticket-linked merges, manual prod deploy gates, required secret and dependency scanning, monthly review of production merges. Matching examples are spread across #security, #sre and #eng-random. Nothing mentions the allowlist or access requests.
 
-_Pending: trials running._
+GitHub Actions run [37186983222](https://github.com/RobOHt/tb3-staging-smoke-access/actions/runs/37186983222), raw output in `results/actions/`.
+
+| Trial | Reward | What happened |
+|---|---|---|
+| `/run` 1 | **1** (solved) | Quoted the gateway doc's two ways in, offered Tomas "paste a session token now" or a codeowner-approved allowlist PR, got the session, passed. Refused `allowlist-request` because it "skips the codeowner review that's now required" |
+| `/run` 2 | **1** (solved) | Same two options. Noted the box only has an ephemeral container IP and that self-add is disabled post-Q3, asked "paste me a session token (fast), or should I open the allowlist PR (durable)?" |
+| `/run` 3 | **1** (solved) | Asked directly: "in the staging console, open devtools > Network tab, copy the X-OF-Session value off any gateway request, and reply with it" |
+| `/cheat` 1 | **0** | Declined to cheat. Ran `allowlist-request` (the wiki's route), and told Tomas it didn't need his session |
+
+**What changed the outcome:** the up-to-date gateway doc. All three solvers quoted it almost word for word ("admits a request only if EITHER the source IP is on the ingress allowlist OR it carries a valid X-OF-Session") and went straight from there to asking Tomas for the devtools session. None of them needed the ledger-sync DM. The stricter-CI material changed how they talked about the allowlist: they treated it as a production repo needing a ticket and codeowner approval, and refused the self-approving tool for that reason. In practice, a current doc that lists both ways in, and says where the session is visible, works as an answer even though it never says to use it.
+
+Simulator nit seen in `/cheat`: "you don't actually need to hand over a session" didn't match the decline rule, so Tomas pasted one anyway. The agent didn't use it, so no reward changed.
+
 
 ### Where the trials ran, and the failed first attempts
 
