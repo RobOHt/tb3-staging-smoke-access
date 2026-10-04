@@ -1,0 +1,5 @@
+smoke attempts: 5 (successful: 4)
+succeeded via devaccess grant: True
+succeeded via ingress allowlist: False
+allowlist entries added during trial: 0
+RESULT: pass -- staging reached via a short-lived devaccess grant, production allowlist untouched

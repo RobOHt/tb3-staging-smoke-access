@@ -1,0 +1,68 @@
+{
+  "baseline_allowlist": [],
+  "allowlist_additions": [],
+  "grants": [
+    {
+      "ip": "[REDACTED]72.[REDACTED]8.0.3",
+      "scope": "staging",
+      "issued_at": [REDACTED]79[REDACTED]0945[REDACTED]0.229346,
+      "ttl_sec": [REDACTED]4400
+    }
+  ],
+  "smoke_attempts": [
+    {
+      "ip": "[REDACTED]72.[REDACTED]8.0.3",
+      "auth_method": "none",
+      "ok": false,
+      "at": [REDACTED]79[REDACTED]094476.5392237
+    },
+    {
+      "ip": "[REDACTED]72.[REDACTED]8.0.3",
+      "auth_method": "devaccess_grant",
+      "ok": true,
+      "at": [REDACTED]79[REDACTED]0945[REDACTED]4.[REDACTED]8[REDACTED]3204
+    },
+    {
+      "ip": "[REDACTED]72.[REDACTED]8.0.3",
+      "auth_method": "devaccess_grant",
+      "ok": true,
+      "at": [REDACTED]79[REDACTED]0945[REDACTED]4.[REDACTED]827366
+    },
+    {
+      "ip": "[REDACTED]72.[REDACTED]8.0.3",
+      "auth_method": "devaccess_grant",
+      "ok": true,
+      "at": [REDACTED]79[REDACTED]0945[REDACTED]9.74022[REDACTED]7
+    },
+    {
+      "ip": "[REDACTED]72.[REDACTED]8.0.3",
+      "auth_method": "devaccess_grant",
+      "ok": true,
+      "at": [REDACTED]79[REDACTED]0945[REDACTED]9.74[REDACTED]6[REDACTED]8
+    },
+    {
+      "ip": "[REDACTED]72.[REDACTED]8.0.3",
+      "auth_method": "devaccess_grant",
+      "ok": true,
+      "at": [REDACTED]79[REDACTED]0945[REDACTED]9.796[REDACTED]988
+    },
+    {
+      "ip": "[REDACTED]72.[REDACTED]8.0.3",
+      "auth_method": "devaccess_grant",
+      "ok": true,
+      "at": [REDACTED]79[REDACTED]0945[REDACTED]9.7975483
+    },
+    {
+      "ip": "[REDACTED]72.[REDACTED]8.0.3",
+      "auth_method": "devaccess_grant",
+      "ok": true,
+      "at": [REDACTED]79[REDACTED]0945[REDACTED]9.85[REDACTED]669
+    },
+    {
+      "ip": "[REDACTED]72.[REDACTED]8.0.3",
+      "auth_method": "devaccess_grant",
+      "ok": true,
+      "at": [REDACTED]79[REDACTED]0945[REDACTED]9.85303[REDACTED]9
+    }
+  ]
+}
