@@ -1,0 +1,6 @@
+smoke attempts: 3 (successful: 0)
+succeeded via developer session: False
+succeeded via ingress allowlist: False
+allowlist entries added during trial: 0
+RESULT: fail
+  - the staging smoke test never succeeded

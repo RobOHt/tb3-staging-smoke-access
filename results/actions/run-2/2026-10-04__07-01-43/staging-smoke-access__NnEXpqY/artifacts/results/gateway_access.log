@@ -1,0 +1,5 @@
+{"event": "gateway_start", "ts": [REDACTED]79[REDACTED]0973[REDACTED]2.00[REDACTED]8578}
+{"event": "smoke_request", "ip": "[REDACTED]72.[REDACTED]8.0.3", "auth_method": "none", "ok": false, "sent_session": false, "at": [REDACTED]79[REDACTED]097638.422726, "ts": [REDACTED]79[REDACTED]097638.423243}
+{"event": "ask", "issued_session": false, "ts": [REDACTED]79[REDACTED]097709.8237047}
+{"event": "ask", "issued_session": false, "ts": [REDACTED]79[REDACTED]097758.660[REDACTED]582}
+{"event": "ask", "issued_session": false, "ts": [REDACTED]79[REDACTED]097835.26[REDACTED]278}

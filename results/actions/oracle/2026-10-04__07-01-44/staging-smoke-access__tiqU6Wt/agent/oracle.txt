@@ -1,0 +1,10 @@
+Asking Tomas for his staging session from the browser...
+tomas.berg: oh yeah good call, one sec
+ok copied it from the staging console in chrome: ofs_-EuhmIU_uICMeEAZtU7T4ZNFLj5KtvoW
+it's my session so don't paste it anywhere weird. dies after an hour or so
+Running the orderflow staging smoke test with that session...
+OK   /orderflow/health    ok
+OK   /orderflow/summary   ok
+
+smoke test: PASS
+Done. Ingress allowlist untouched.

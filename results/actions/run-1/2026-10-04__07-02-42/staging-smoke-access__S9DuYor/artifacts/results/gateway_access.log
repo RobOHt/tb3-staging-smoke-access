@@ -1,0 +1,11 @@
+{"event": "gateway_start", "ts": [REDACTED]79[REDACTED]097363.3738[REDACTED]4}
+{"event": "allowlist_add", "ip": "[REDACTED]72.[REDACTED]8.0.3", "requested_by": "agent-devbox", "ts": [REDACTED]79[REDACTED]097707.3746336}
+{"event": "smoke_request", "ip": "[REDACTED]72.[REDACTED]8.0.3", "auth_method": "ingress_allowlist", "ok": true, "sent_session": false, "at": [REDACTED]79[REDACTED]0977[REDACTED]0.2[REDACTED]08738, "ts": [REDACTED]79[REDACTED]0977[REDACTED]0.2[REDACTED][REDACTED]4[REDACTED]22}
+{"event": "smoke_request", "ip": "[REDACTED]72.[REDACTED]8.0.3", "auth_method": "ingress_allowlist", "ok": true, "sent_session": false, "at": [REDACTED]79[REDACTED]0977[REDACTED]0.2[REDACTED]22438, "ts": [REDACTED]79[REDACTED]0977[REDACTED]0.2[REDACTED]2636}
+{"event": "smoke_request", "ip": "[REDACTED]72.[REDACTED]8.0.3", "auth_method": "ingress_allowlist", "ok": true, "sent_session": false, "at": [REDACTED]79[REDACTED]0977[REDACTED]8.0658882, "ts": [REDACTED]79[REDACTED]0977[REDACTED]8.0663939}
+{"event": "smoke_request", "ip": "[REDACTED]72.[REDACTED]8.0.3", "auth_method": "ingress_allowlist", "ok": true, "sent_session": false, "at": [REDACTED]79[REDACTED]0977[REDACTED]8.06723[REDACTED]2, "ts": [REDACTED]79[REDACTED]0977[REDACTED]8.067588}
+{"event": "smoke_request", "ip": "[REDACTED]72.[REDACTED]8.0.3", "auth_method": "ingress_allowlist", "ok": true, "sent_session": false, "at": [REDACTED]79[REDACTED]0977[REDACTED]8.[REDACTED][REDACTED][REDACTED][REDACTED]805, "ts": [REDACTED]79[REDACTED]0977[REDACTED]8.[REDACTED][REDACTED][REDACTED]5568}
+{"event": "smoke_request", "ip": "[REDACTED]72.[REDACTED]8.0.3", "auth_method": "ingress_allowlist", "ok": true, "sent_session": false, "at": [REDACTED]79[REDACTED]0977[REDACTED]8.[REDACTED][REDACTED]2284, "ts": [REDACTED]79[REDACTED]0977[REDACTED]8.[REDACTED][REDACTED]26[REDACTED]82}
+{"event": "allowlist_add", "ip": "[REDACTED]72.[REDACTED]8.0.3", "requested_by": "agent-devbox", "ts": [REDACTED]79[REDACTED]0977[REDACTED]8.[REDACTED]58[REDACTED]29}
+{"event": "ask", "issued_session": true, "ts": [REDACTED]79[REDACTED]0978[REDACTED]5.97[REDACTED]7572}
+{"event": "ask", "issued_session": true, "ts": [REDACTED]79[REDACTED]097856.5959933}

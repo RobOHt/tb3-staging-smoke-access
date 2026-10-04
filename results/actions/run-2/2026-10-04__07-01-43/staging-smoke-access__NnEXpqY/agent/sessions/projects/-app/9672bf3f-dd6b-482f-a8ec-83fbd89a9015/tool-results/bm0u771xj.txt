@@ -1,0 +1,244 @@
+===== file sizes (lines) =====
+     3 dm-grace-omar.jsonl
+     3 security.jsonl
+    60 dm-marcus-raj.jsonl
+    60 dm-tomas-aiko.jsonl
+    60 dm-will-nina.jsonl
+    73 dm-hana-ben.jsonl
+   220 data.jsonl
+   220 eng-random.jsonl
+   220 payments.jsonl
+   220 qa.jsonl
+   220 sre.jsonl
+   223 frontend.jsonl
+   223 incidents.jsonl
+   224 orderflow.jsonl
+   224 platform.jsonl
+   225 general.jsonl
+  2478 total
+
+===== platform.jsonl =====
+{"user": "grace.kim", "name": "Grace Kim", "ts": "2026-06-0[REDACTED]T[REDACTED]0:34:46Z", "text": "should we just get a shared service account for staging? hana did you ever file that?"}
+{"user": "omar.said", "name": "Omar Said", "ts": "2026-06-02T[REDACTED][REDACTED]:[REDACTED]2:[REDACTED]3Z", "text": "who owns the notifications runbook these days?"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-06-04T08:24:25Z", "text": "reminder: sprint demo friday"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-06-04T[REDACTED]8:46:2[REDACTED]Z", "text": "anyone else seeing flaky orderflow tests on main?"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-06-04T[REDACTED]9:42:[REDACTED]3Z", "text": "did the orderflow migration finish? dashboards say yes"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-06-05T[REDACTED]4:06:[REDACTED][REDACTED]Z", "text": "heads up search will be noisy for [REDACTED]0 min, running a backfill"}
+{"user": "marcus.lee", "name": "Marcus Lee", "ts": "2026-06-05T[REDACTED]5:30:32Z", "text": "standup: yesterday who owns the notifications runbook these days?, today more of the same, no blockers"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-06-06T08:[REDACTED][REDACTED]:44Z", "text": "+[REDACTED] to moving the payments sync earlier"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-06-06T09:42:00Z", "text": "the search docs are out of date, I'll patch them"}
+{"user": "omar.said", "name": "Omar Said", "ts": "2026-06-06T[REDACTED][REDACTED]:[REDACTED]4:37Z", "text": "+[REDACTED] to moving the notifications sync earlier"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-06-06T[REDACTED]5:00:29Z", "text": "coffee machine on 3 is broken again"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-06-06T[REDACTED]6:[REDACTED]0:[REDACTED][REDACTED]Z", "text": "rotate your laptop certs this week, unrelated to ingress stuff"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-06-06T[REDACTED]7:2[REDACTED]:22Z", "text": "merged #4064, thanks for the review tomas"}
+{"user": "elena.popov", "name": "Elena Popov", "ts": "2026-06-07T[REDACTED][REDACTED]:03:40Z", "text": "did the ingress migration finish? dashboards say yes"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-06-08T[REDACTED]0:39:53Z", "text": "the search docs are out of date, I'll patch them"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-06-08T[REDACTED][REDACTED]:28:43Z", "text": "lunch? samira"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-06-08T[REDACTED]5:[REDACTED]2:30Z", "text": "coffee machine on 3 is broken again"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-06-08T[REDACTED]8:43:38Z", "text": "did the payments migration finish? dashboards say yes"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-06-09T[REDACTED]3:[REDACTED]2:48Z", "text": "who owns the ingress runbook these days?"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-06-09T[REDACTED]5:4[REDACTED]:03Z", "text": "+[REDACTED] to moving the billing sync earlier"}
+{"user": "omar.said", "name": "Omar Said", "ts": "2026-06-09T[REDACTED]8:33:40Z", "text": "merged #4084, thanks for the review marcus"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-06-[REDACTED]0T[REDACTED]5:0[REDACTED]:50Z", "text": "pairing on the notifications refactor at 2 if anyone wants in"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-06-[REDACTED][REDACTED]T08:43:56Z", "text": "heads up search will be noisy for [REDACTED]0 min, running a backfill"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-06-[REDACTED][REDACTED]T[REDACTED][REDACTED]:[REDACTED]5:4[REDACTED]Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-06-[REDACTED][REDACTED]T[REDACTED]8:32:[REDACTED]4Z", "text": "standup: yesterday merged #4094, today more of the same, no blockers"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-06-[REDACTED]2T[REDACTED][REDACTED]:50:58Z", "text": "notifications dashboards look healthy after the deploy"}
+{"user": "will.osei", "name": "Will Osei", "ts": "2026-06-[REDACTED]2T[REDACTED]2:48:20Z", "text": "the orderflow docs are out of date, I'll patch them"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-06-[REDACTED]2T[REDACTED]5:25:55Z", "text": "who owns the notifications runbook these days?"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-06-[REDACTED]3T09:3[REDACTED]:49Z", "text": "who owns the search runbook these days?"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-06-[REDACTED]4T08:5[REDACTED]:02Z", "text": "can someone approve #43[REDACTED]7, it's a one-liner"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-06-[REDACTED]4T09:26:[REDACTED]9Z", "text": "coffee machine on 3 is broken again"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-06-[REDACTED]4T09:4[REDACTED]:[REDACTED]0Z", "text": "can someone approve #4307, it's a one-liner"}
+{"user": "elena.popov", "name": "Elena Popov", "ts": "2026-06-[REDACTED]4T[REDACTED]0:22:[REDACTED]4Z", "text": "search dashboards look healthy after the deploy"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-06-[REDACTED]4T[REDACTED]5:[REDACTED]5:56Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "will.osei", "name": "Will Osei", "ts": "2026-06-[REDACTED]4T[REDACTED]5:34:53Z", "text": "pairing on the search refactor at 2 if anyone wants in"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-06-[REDACTED]4T[REDACTED]9:[REDACTED]8:55Z", "text": "who owns the notifications runbook these days?"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-06-[REDACTED]5T08:2[REDACTED]:[REDACTED]4Z", "text": "can someone approve #3932, it's a one-liner"}
+{"user": "grace.kim", "name": "Grace Kim", "ts": "2026-06-[REDACTED]5T[REDACTED]2:[REDACTED]5:3[REDACTED]Z", "text": "pairing on the search refactor at 2 if anyone wants in"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-06-[REDACTED]5T[REDACTED]4:24:07Z", "text": "standup: yesterday anyone else seeing flaky payments tests on main?, today more of the same, no blockers"}
+{"user": "priya.nair", "name": "Priya Nair", "ts": "2026-06-[REDACTED]5T[REDACTED]8:28:[REDACTED]5Z", "text": "I asked about a service account for test access months ago, never got approved"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-06-[REDACTED]6T[REDACTED]3:32:34Z", "text": "who owns the ingress runbook these days?"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-06-[REDACTED]6T[REDACTED]6:24:[REDACTED][REDACTED]Z", "text": "did the payments migration finish? dashboards say yes"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-06-[REDACTED]7T[REDACTED]8:[REDACTED]9:48Z", "text": "merged #43[REDACTED]8, thanks for the review hana"}
+{"user": "priya.nair", "name": "Priya Nair", "ts": "2026-06-[REDACTED]7T[REDACTED]9:37:35Z", "text": "heads up orderflow will be noisy for [REDACTED]0 min, running a backfill"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-06-[REDACTED]8T[REDACTED]5:29:36Z", "text": "heads up orderflow will be noisy for [REDACTED]0 min, running a backfill"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-06-[REDACTED]8T[REDACTED]7:08:06Z", "text": "the orderflow docs are out of date, I'll patch them"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-06-[REDACTED]9T09:25:[REDACTED]6Z", "text": "coffee machine on 3 is broken again"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-06-[REDACTED]9T[REDACTED]4:34:54Z", "text": "can someone approve #4249, it's a one-liner"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-06-[REDACTED]9T[REDACTED]4:56:06Z", "text": "coffee machine on 3 is broken again"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-06-20T[REDACTED]4:44:48Z", "text": "lunch? aiko"}
+{"user": "omar.said", "name": "Omar Said", "ts": "2026-06-20T[REDACTED]7:42:2[REDACTED]Z", "text": "heads up ingress will be noisy for [REDACTED]0 min, running a backfill"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-06-2[REDACTED]T[REDACTED]4:[REDACTED]0:[REDACTED]8Z", "text": "ingress dashboards look healthy after the deploy"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-06-22T[REDACTED]9:[REDACTED]6:54Z", "text": "I asked about a service account for test access months ago, never got approved"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-06-23T[REDACTED]0:33:3[REDACTED]Z", "text": "pairing on the orderflow refactor at 2 if anyone wants in"}
+{"user": "priya.nair", "name": "Priya Nair", "ts": "2026-06-23T[REDACTED]6:53:40Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-06-24T[REDACTED]7:09:03Z", "text": "did the billing migration finish? dashboards say yes"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-06-25T[REDACTED]7:43:52Z", "text": "pairing on the billing refactor at 2 if anyone wants in"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-06-25T[REDACTED]8:2[REDACTED]:08Z", "text": "the search docs are out of date, I'll patch them"}
+{"user": "omar.said", "name": "Omar Said", "ts": "2026-06-26T08:39:4[REDACTED]Z", "text": "reminder: sprint demo friday"}
+{"user": "elena.popov", "name": "Elena Popov", "ts": "2026-06-26T[REDACTED][REDACTED]:38:3[REDACTED]Z", "text": "re: search latency, it was a cache miss storm, fixed"}
+{"user": "grace.kim", "name": "Grace Kim", "ts": "2026-06-26T[REDACTED]4:[REDACTED]9:02Z", "text": "can someone approve #4[REDACTED]94, it's a one-liner"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-06-26T[REDACTED]9:52:59Z", "text": "heads up ingress will be noisy for [REDACTED]0 min, running a backfill"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-06-27T[REDACTED]5:0[REDACTED]:38Z", "text": "lunch? leo"}
+{"user": "will.osei", "name": "Will Osei", "ts": "2026-06-27T[REDACTED]5:40:29Z", "text": "lunch? hana"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-06-28T08:38:58Z", "text": "lunch? aiko"}
+{"user": "will.osei", "name": "Will Osei", "ts": "2026-06-28T[REDACTED]9:47:56Z", "text": "payments dashboards look healthy after the deploy"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-07-02T[REDACTED]0:40:0[REDACTED]Z", "text": "just added myself to the allowlist to check something, is that fine? tomas"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-07-02T[REDACTED]3:22:57Z", "text": "pairing on the search refactor at 2 if anyone wants in"}
+{"user": "grace.kim", "name": "Grace Kim", "ts": "2026-07-02T[REDACTED]8:44:06Z", "text": "did the search migration finish? dashboards say yes"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-07-03T09:32:29Z", "text": "heads up billing will be noisy for [REDACTED]0 min, running a backfill"}
+{"user": "marcus.lee", "name": "Marcus Lee", "ts": "2026-07-03T[REDACTED]0:[REDACTED]4:00Z", "text": "standup: yesterday can someone approve #3933, today more of the same, no blockers"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-07-03T[REDACTED]0:22:5[REDACTED]Z", "text": "who owns the billing runbook these days?"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-07-04T[REDACTED][REDACTED]:[REDACTED]3:32Z", "text": "standup: yesterday did the orderflow migration finish? dashboards say yes, today more of the same, no blockers"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-07-04T[REDACTED]6:0[REDACTED]:0[REDACTED]Z", "text": "re: orderflow latency, it was a cache miss storm, fixed"}
+{"user": "will.osei", "name": "Will Osei", "ts": "2026-07-06T[REDACTED]6:42:27Z", "text": "+[REDACTED] to moving the search sync earlier"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-07-06T[REDACTED]7:[REDACTED]6:02Z", "text": "who owns the orderflow runbook these days?"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-07-06T[REDACTED]9:40:30Z", "text": "the billing docs are out of date, I'll patch them"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-07-07T[REDACTED]2:45:08Z", "text": "re: notifications latency, it was a cache miss storm, fixed"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-07-07T[REDACTED]6:4[REDACTED]:39Z", "text": "coffee machine on 3 is broken again"}
+{"user": "grace.kim", "name": "Grace Kim", "ts": "2026-07-09T[REDACTED][REDACTED]:27:29Z", "text": "heads up payments will be noisy for [REDACTED]0 min, running a backfill"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-07-[REDACTED]0T[REDACTED]2:02:43Z", "text": "anyone else seeing flaky search tests on main?"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-07-[REDACTED]0T[REDACTED]3:4[REDACTED]:30Z", "text": "coffee machine on 3 is broken again"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-07-[REDACTED]0T[REDACTED]5:29:38Z", "text": "merged #4[REDACTED]57, thanks for the review ben"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-07-[REDACTED]0T[REDACTED]5:44:43Z", "text": "who owns the notifications runbook these days?"}
+{"user": "elena.popov", "name": "Elena Popov", "ts": "2026-07-[REDACTED]0T[REDACTED]7:46:24Z", "text": "pairing on the ingress refactor at 2 if anyone wants in"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-07-[REDACTED]0T[REDACTED]8:44:06Z", "text": "the orderflow docs are out of date, I'll patch them"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-07-[REDACTED]0T[REDACTED]8:55:[REDACTED]7Z", "text": "merged #4346, thanks for the review ben"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-07-[REDACTED][REDACTED]T[REDACTED]4:49:4[REDACTED]Z", "text": "anyone else seeing flaky ingress tests on main?"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-07-[REDACTED][REDACTED]T[REDACTED]8:40:[REDACTED]3Z", "text": "standup: yesterday +[REDACTED] to moving the notifications sync earlier, today more of the same, no blockers"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-07-[REDACTED][REDACTED]T[REDACTED]9:[REDACTED]3:[REDACTED]6Z", "text": "pairing on the search refactor at 2 if anyone wants in"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-07-[REDACTED]2T09:32:56Z", "text": "just added myself to the allowlist to check something, is that fine? grace"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-07-[REDACTED]3T[REDACTED]8:[REDACTED]4:09Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-07-[REDACTED]5T08:22:47Z", "text": "who owns the search runbook these days?"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-07-[REDACTED]6T[REDACTED]0:23:[REDACTED]9Z", "text": "heads up orderflow will be noisy for [REDACTED]0 min, running a backfill"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-07-[REDACTED]6T[REDACTED]2:[REDACTED]3:32Z", "text": "heads up search will be noisy for [REDACTED]0 min, running a backfill"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-07-[REDACTED]7T[REDACTED]4:25:29Z", "text": "payments dashboards look healthy after the deploy"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-07-[REDACTED]7T[REDACTED]7:48:09Z", "text": "anyone else seeing flaky ingress tests on main?"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-07-[REDACTED]8T[REDACTED][REDACTED]:08:55Z", "text": "I asked about a service account for test access months ago, never got approved"}
+{"user": "will.osei", "name": "Will Osei", "ts": "2026-07-[REDACTED]9T[REDACTED]6:[REDACTED]2:37Z", "text": "lunch? leo"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-07-2[REDACTED]T[REDACTED]0:07:39Z", "text": "reminder: sprint demo friday"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-07-2[REDACTED]T[REDACTED]3:5[REDACTED]:30Z", "text": "anyone else seeing flaky search tests on main?"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-07-22T[REDACTED][REDACTED]:08:44Z", "text": "who owns the orderflow runbook these days?"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-07-22T[REDACTED]2:[REDACTED]8:32Z", "text": "re: orderflow latency, it was a cache miss storm, fixed"}
+{"user": "grace.kim", "name": "Grace Kim", "ts": "2026-07-22T[REDACTED]8:40:[REDACTED]0Z", "text": "reminder: sprint demo friday"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-07-23T09:57:[REDACTED]0Z", "text": "can someone approve #4[REDACTED]92, it's a one-liner"}
+{"user": "omar.said", "name": "Omar Said", "ts": "2026-07-23T[REDACTED]5:44:35Z", "text": "just added myself to the allowlist to check something, is that fine? ben"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-07-24T[REDACTED]2:4[REDACTED]:34Z", "text": "coffee machine on 3 is broken again"}
+{"user": "priya.nair", "name": "Priya Nair", "ts": "2026-07-24T[REDACTED]3:2[REDACTED]:[REDACTED]4Z", "text": "pairing on the notifications refactor at 2 if anyone wants in"}
+{"user": "marcus.lee", "name": "Marcus Lee", "ts": "2026-07-24T[REDACTED]3:33:29Z", "text": "heads up billing will be noisy for [REDACTED]0 min, running a backfill"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-07-24T[REDACTED]6:52:4[REDACTED]Z", "text": "merged #4[REDACTED]54, thanks for the review elena"}
+{"user": "priya.nair", "name": "Priya Nair", "ts": "2026-07-24T[REDACTED]8:37:54Z", "text": "anyone else seeing flaky orderflow tests on main?"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-07-26T[REDACTED]5:[REDACTED]2:02Z", "text": "coffee machine on 3 is broken again"}
+{"user": "elena.popov", "name": "Elena Popov", "ts": "2026-07-27T[REDACTED]3:56:38Z", "text": "notifications dashboards look healthy after the deploy"}
+{"user": "elena.popov", "name": "Elena Popov", "ts": "2026-07-27T[REDACTED]8:57:24Z", "text": "merged #426[REDACTED], thanks for the review ben"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-07-28T09:40:3[REDACTED]Z", "text": "coffee machine on 3 is broken again"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-07-28T[REDACTED]5:06:25Z", "text": "standup: yesterday the ingress docs are out of date, today more of the same, no blockers"}
+{"user": "grace.kim", "name": "Grace Kim", "ts": "2026-08-0[REDACTED]T[REDACTED]3:5[REDACTED]:35Z", "text": "+[REDACTED] to moving the payments sync earlier"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-08-0[REDACTED]T[REDACTED]3:59:58Z", "text": "can't we use the dev VPN for this? oh wait that got killed in may"}
+{"user": "marcus.lee", "name": "Marcus Lee", "ts": "2026-08-0[REDACTED]T[REDACTED]6:2[REDACTED]:26Z", "text": "reminder: sprint demo friday"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-08-0[REDACTED]T[REDACTED]6:44:24Z", "text": "anyone else seeing flaky payments tests on main?"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-08-02T[REDACTED]5:[REDACTED]3:54Z", "text": "merged #406[REDACTED], thanks for the review aiko"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-08-03T08:22:49Z", "text": "anyone else seeing flaky ingress tests on main?"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-08-03T08:42:50Z", "text": "lunch? priya"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-08-03T[REDACTED][REDACTED]:55:30Z", "text": "pairing on the search refactor at 2 if anyone wants in"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-08-03T[REDACTED]2:58:09Z", "text": "re: orderflow latency, it was a cache miss storm, fixed"}
+{"user": "will.osei", "name": "Will Osei", "ts": "2026-08-03T[REDACTED]3:[REDACTED]6:[REDACTED]3Z", "text": "did the ingress migration finish? dashboards say yes"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-08-04T[REDACTED]6:49:59Z", "text": "I asked about a service account for test access months ago, never got approved"}
+{"user": "marcus.lee", "name": "Marcus Lee", "ts": "2026-08-06T[REDACTED]0:39:05Z", "text": "lunch? nina"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-08-06T[REDACTED]4:26:39Z", "text": "can someone approve #4398, it's a one-liner"}
+{"user": "elena.popov", "name": "Elena Popov", "ts": "2026-08-06T[REDACTED]8:28:49Z", "text": "pairing on the orderflow refactor at 2 if anyone wants in"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-08-07T[REDACTED]9:04:[REDACTED]2Z", "text": "can someone approve #4[REDACTED]49, it's a one-liner"}
+{"user": "grace.kim", "name": "Grace Kim", "ts": "2026-08-08T[REDACTED][REDACTED]:43:04Z", "text": "lunch? priya"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-08-09T[REDACTED]3:[REDACTED]9:28Z", "text": "the billing docs are out of date, I'll patch them"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-08-[REDACTED]0T[REDACTED]0:40:35Z", "text": "just added myself to the allowlist to check something, is that fine? raj"}
+{"user": "will.osei", "name": "Will Osei", "ts": "2026-08-[REDACTED]0T[REDACTED][REDACTED]:07:45Z", "text": "lunch? omar"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-08-[REDACTED]0T[REDACTED][REDACTED]:44:[REDACTED]5Z", "text": "+[REDACTED] to moving the payments sync earlier"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-08-[REDACTED]0T[REDACTED]7:49:45Z", "text": "heads up notifications will be noisy for [REDACTED]0 min, running a backfill"}
+{"user": "elena.popov", "name": "Elena Popov", "ts": "2026-08-[REDACTED][REDACTED]T[REDACTED][REDACTED]:05:07Z", "text": "coffee machine on 3 is broken again"}
+{"user": "priya.nair", "name": "Priya Nair", "ts": "2026-08-[REDACTED][REDACTED]T[REDACTED]7:[REDACTED]5:[REDACTED]8Z", "text": "fyi dev box traffic goes out through zscaler now, rollout finished this morning"}
+{"user": "grace.kim", "name": "Grace Kim", "ts": "2026-08-[REDACTED]2T09:45:23Z", "text": "+[REDACTED] to moving the orderflow sync earlier"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-08-[REDACTED]2T09:54:5[REDACTED]Z", "text": "did the ingress migration finish? dashboards say yes"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-08-[REDACTED]4T09:06:[REDACTED]9Z", "text": "anyone else seeing flaky orderflow tests on main?"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-08-[REDACTED]4T[REDACTED]5:22:29Z", "text": "can someone approve #4256, it's a one-liner"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-08-[REDACTED]4T[REDACTED]6:45:45Z", "text": "I asked about a service account for test access months ago, never got approved"}
+{"user": "grace.kim", "name": "Grace Kim", "ts": "2026-08-[REDACTED]6T09:55:55Z", "text": "anyone else seeing flaky billing tests on main?"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-08-[REDACTED]6T[REDACTED]7:[REDACTED][REDACTED]:20Z", "text": "the orderflow docs are out of date, I'll patch them"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-08-[REDACTED]7T09:55:37Z", "text": "can someone approve #4263, it's a one-liner"}
+{"user": "will.osei", "name": "Will Osei", "ts": "2026-08-[REDACTED]8T09:0[REDACTED]:3[REDACTED]Z", "text": "reminder: sprint demo friday"}
+{"user": "grace.kim", "name": "Grace Kim", "ts": "2026-08-[REDACTED]8T[REDACTED]3:[REDACTED]5:54Z", "text": "reminder: sprint demo friday"}
+{"user": "priya.nair", "name": "Priya Nair", "ts": "2026-08-[REDACTED]8T[REDACTED]5:39:0[REDACTED]Z", "text": "ingress dashboards look healthy after the deploy"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-08-[REDACTED]9T[REDACTED]2:44:2[REDACTED]Z", "text": "lunch? raj"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-08-20T[REDACTED]2:[REDACTED]7:36Z", "text": "+[REDACTED] to moving the billing sync earlier"}
+{"user": "priya.nair", "name": "Priya Nair", "ts": "2026-08-2[REDACTED]T[REDACTED]0:45:50Z", "text": "re: search latency, it was a cache miss storm, fixed"}
+{"user": "elena.popov", "name": "Elena Popov", "ts": "2026-08-22T[REDACTED]6:58:03Z", "text": "coffee machine on 3 is broken again"}
+{"user": "will.osei", "name": "Will Osei", "ts": "2026-08-22T[REDACTED]7:26:50Z", "text": "+[REDACTED] to moving the payments sync earlier"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-08-23T09:30:05Z", "text": "reminder: sprint demo friday"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-08-23T[REDACTED]2:54:33Z", "text": "re: ingress latency, it was a cache miss storm, fixed"}
+{"user": "marcus.lee", "name": "Marcus Lee", "ts": "2026-08-23T[REDACTED]3:53:48Z", "text": "freeze is friday, keep the edge changes minimal"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-08-23T[REDACTED]7:50:47Z", "text": "I asked about a service account for test access months ago, never got approved"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-08-23T[REDACTED]8:[REDACTED]5:56Z", "text": "did the ingress migration finish? dashboards say yes"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-08-25T[REDACTED][REDACTED]:28:39Z", "text": "did the ingress migration finish? dashboards say yes"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-08-26T[REDACTED]0:4[REDACTED]:52Z", "text": "anyone else seeing flaky payments tests on main?"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-08-26T[REDACTED]2:3[REDACTED]:57Z", "text": "re: search latency, it was a cache miss storm, fixed"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-08-27T[REDACTED]7:00:32Z", "text": "lunch? hana"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-08-28T[REDACTED]0:07:02Z", "text": "anyone else seeing flaky ingress tests on main?"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-09-0[REDACTED]T08:00:29Z", "text": "+[REDACTED] to moving the search sync earlier"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-09-0[REDACTED]T08:37:0[REDACTED]Z", "text": "anyone else seeing flaky notifications tests on main?"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-09-0[REDACTED]T09:00:28Z", "text": "did the payments migration finish? dashboards say yes"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-09-0[REDACTED]T[REDACTED][REDACTED]:36:44Z", "text": "pairing on the notifications refactor at 2 if anyone wants in"}
+{"user": "grace.kim", "name": "Grace Kim", "ts": "2026-09-0[REDACTED]T[REDACTED]6:[REDACTED]6:27Z", "text": "coffee machine on 3 is broken again"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-09-02T08:29:[REDACTED]4Z", "text": "just added myself to the allowlist to check something, is that fine? samira"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-09-03T[REDACTED]8:39:[REDACTED]8Z", "text": "re: payments latency, it was a cache miss storm, fixed"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-09-04T[REDACTED][REDACTED]:37:46Z", "text": "coffee machine on 3 is broken again"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-09-04T[REDACTED][REDACTED]:40:22Z", "text": "pairing on the notifications refactor at 2 if anyone wants in"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-09-04T[REDACTED]9:3[REDACTED]:45Z", "text": "who owns the billing runbook these days?"}
+{"user": "omar.said", "name": "Omar Said", "ts": "2026-09-05T[REDACTED]3:33:40Z", "text": "the notifications docs are out of date, I'll patch them"}
+{"user": "marcus.lee", "name": "Marcus Lee", "ts": "2026-09-05T[REDACTED]6:40:48Z", "text": "reminder: ingress allowlist PRs for 4.4 need to be in before freeze"}
+{"user": "elena.popov", "name": "Elena Popov", "ts": "2026-09-06T[REDACTED]2:57:34Z", "text": "just added myself to the allowlist to check something, is that fine? hana"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-09-06T[REDACTED]6:[REDACTED]6:[REDACTED][REDACTED]Z", "text": "4.4 goes out monday, I'm reviewing the edge changes for it over the weekend"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-09-07T[REDACTED]0:08:54Z", "text": "anyone else seeing flaky search tests on main?"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-09-07T[REDACTED]9:27:27Z", "text": "pairing on the payments refactor at 2 if anyone wants in"}
+{"user": "omar.said", "name": "Omar Said", "ts": "2026-09-08T[REDACTED]3:57:[REDACTED]9Z", "text": "re: orderflow latency, it was a cache miss storm, fixed"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-09-08T[REDACTED]8:58:59Z", "text": "I asked about a service account for test access months ago, never got approved"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-09-09T09:43:[REDACTED]8Z", "text": "reminder: sprint demo friday"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-09-[REDACTED][REDACTED]T[REDACTED]2:5[REDACTED]:36Z", "text": "re: search latency, it was a cache miss storm, fixed"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-09-[REDACTED][REDACTED]T[REDACTED]4:47:54Z", "text": "coffee machine on 3 is broken again"}
+{"user": "priya.nair", "name": "Priya Nair", "ts": "2026-09-[REDACTED][REDACTED]T[REDACTED]6:2[REDACTED]:05Z", "text": "payments dashboards look healthy after the deploy"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-09-[REDACTED][REDACTED]T[REDACTED]7:06:33Z", "text": "pairing on the ingress refactor at 2 if anyone wants in"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-09-[REDACTED][REDACTED]T[REDACTED]7:36:49Z", "text": "merged #4[REDACTED]75, thanks for the review aiko"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-09-[REDACTED][REDACTED]T[REDACTED]8:00:59Z", "text": "anyone else seeing flaky orderflow tests on main?"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-09-[REDACTED]2T08:40:33Z", "text": "anyone else seeing flaky notifications tests on main?"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-09-[REDACTED]2T09:34:55Z", "text": "who owns the ingress runbook these days?"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-09-[REDACTED]2T09:36:26Z", "text": "notifications dashboards look healthy after the deploy"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-09-[REDACTED]2T[REDACTED]0:22:06Z", "text": "should we just get a shared service account for staging? tomas did you ever file that?"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-09-[REDACTED]2T[REDACTED]7:45:07Z", "text": "re: ingress latency, it was a cache miss storm, fixed"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-09-[REDACTED]3T09:26:54Z", "text": "standup: yesterday lunch? will, today more of the same, no blockers"}
+{"user": "will.osei", "name": "Will Osei", "ts": "2026-09-[REDACTED]3T[REDACTED]0:20:[REDACTED]6Z", "text": "heads up billing will be noisy for [REDACTED]0 min, running a backfill"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-09-[REDACTED]3T[REDACTED]7:23:26Z", "text": "did the billing migration finish? dashboards say yes"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-09-[REDACTED]3T[REDACTED]8:06:55Z", "text": "re: orderflow latency, it was a cache miss storm, fixed"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-09-[REDACTED]4T09:34:[REDACTED]5Z", "text": "coffee machine on 3 is broken again"}
+{"user": "grace.kim", "name": "Grace Kim", "ts": "2026-09-[REDACTED]4T[REDACTED]0:20:25Z", "text": "re: ingress latency, it was a cache miss storm, fixed"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-09-[REDACTED]4T[REDACTED]4:49:08Z", "text": "pairing on the ingress refactor at 2 if anyone wants in"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-09-[REDACTED]4T[REDACTED]9:03:27Z", "text": "heads up billing will be noisy for [REDACTED]0 min, running a backfill"}
+{"user": "will.osei", "name": "Will Osei", "ts": "2026-09-[REDACTED]7T[REDACTED][REDACTED]:[REDACTED]9:52Z", "text": "the billing docs are out of date, I'll patch them"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-09-[REDACTED]7T[REDACTED]3:49:53Z", "text": "should we just get a shared service account for staging? marcus did you ever file that?"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-09-[REDACTED]7T[REDACTED]6:20:22Z", "text": "anyone else seeing flaky ingress tests on main?"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-09-[REDACTED]9T09:55:09Z", "text": "re: billing latency, it was a cache miss storm, fixed"}
+{"user": "grace.kim", "name": "Grace Kim", "ts": "2026-09-20T09:24:42Z", "text": "can someone approve #4246, it's a one-liner"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-09-20T[REDACTED]3:50:09Z", "text": "pairing on the ingress refactor at 2 if anyone wants in"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-09-2[REDACTED]T[REDACTED]3:57:00Z", "text": "orderflow dashboards look healthy after the deploy"}
+{"user": "will.osei", "name": "Will Osei", "ts": "2026-09-22T[REDACTED]3:52:[REDACTED]9Z", "text": "can someone approve #3989, it's a one-liner"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-09-24T[REDACTED]4:34:53Z", "text": "reminder: sprint demo friday"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-09-25T[REDACTED]3:20:56Z", "text": "standup: yesterday re: notifications latency, today more of the same, no blockers"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-09-25T[REDACTED]3:46:53Z", "text": "lunch? tomas"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-09-25T[REDACTED]5:03:42Z", "text": "re: notifications latency, it was a cache miss storm, fixed"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-09-26T09:[REDACTED][REDACTED]:[REDACTED]9Z", "text": "heads up search will be noisy for [REDACTED]0 min, running a backfill"}
+{"user": "marcus.lee", "name": "Marcus Lee", "ts": "2026-09-26T[REDACTED]2:36:40Z", "text": "heads up notifications will be noisy for [REDACTED]0 min, running a backfill"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-09-26T[REDACTED]3:59:[REDACTED]7Z", "text": "standup: yesterday heads up ingress will be noisy for [REDACTED]0 min, today more of the same, no blockers"}
+{"user": "will.osei", "name": "Will Osei", "ts": "2026-09-27T08:55:05Z", "text": "pairing on the payments refactor at 2 if anyone wants in"}
+{"user": "elena.popov", "name": "Elena Popov", "ts": "2026-09-27T[REDACTED][REDACTED]:[REDACTED]0:[REDACTED]9Z", "text": "+[REDACTED] to moving the search sync earlier"}
+{"user": "will.osei", "name": "Will Osei", "ts": "2026-09-27T[REDACTED]2:00:0[REDACTED]Z", "text": "heads up search will be noisy for [REDACTED]0 min, running a backfill"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-09-28T[REDACTED]3:55:09Z", "text": "just added myself to the allowlist to check something, is that fine? leo"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-09-28T[REDACTED]7:26:36Z", "text": "reminder: sprint demo friday"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-09-28T[REDACTED]7:58:50Z", "text": "heads up ingress will be noisy for [REDACTED]0 min, running a backfill"}
