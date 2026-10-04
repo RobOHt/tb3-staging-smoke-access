@@ -1,0 +1,1 @@
+- [orderflow staging smoke access](orderflow-staging-smoke-access.md) — how run_smoke.py passes from a dev box (OF_SESSION token route, not the allowlist)

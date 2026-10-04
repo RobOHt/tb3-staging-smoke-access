@@ -1,0 +1,10 @@
+{"event": "gateway_start", "ts": [REDACTED]79[REDACTED]098264.0948944}
+{"event": "smoke_request", "ip": "[REDACTED]72.[REDACTED]8.0.3", "auth_method": "none", "ok": false, "sent_session": false, "at": [REDACTED]79[REDACTED]098472.0202992, "ts": [REDACTED]79[REDACTED]098472.0207777}
+{"event": "smoke_request", "ip": "[REDACTED]72.[REDACTED]8.0.3", "auth_method": "none", "ok": false, "sent_session": false, "at": [REDACTED]79[REDACTED]098475.76754[REDACTED]6, "ts": [REDACTED]79[REDACTED]098475.7680087}
+{"event": "allowlist_add", "ip": "[REDACTED]72.[REDACTED]8.0.3", "requested_by": "agent-devbox", "ts": [REDACTED]79[REDACTED]098483.0675423}
+{"event": "smoke_request", "ip": "[REDACTED]72.[REDACTED]8.0.3", "auth_method": "ingress_allowlist", "ok": true, "sent_session": false, "at": [REDACTED]79[REDACTED]098485.795[REDACTED]307, "ts": [REDACTED]79[REDACTED]098485.7956[REDACTED]9}
+{"event": "smoke_request", "ip": "[REDACTED]72.[REDACTED]8.0.3", "auth_method": "ingress_allowlist", "ok": true, "sent_session": false, "at": [REDACTED]79[REDACTED]098485.7965093, "ts": [REDACTED]79[REDACTED]098485.7968707}
+{"event": "smoke_request", "ip": "[REDACTED]72.[REDACTED]8.0.3", "auth_method": "ingress_allowlist", "ok": true, "sent_session": false, "at": [REDACTED]79[REDACTED]0986[REDACTED][REDACTED].7594[REDACTED]68, "ts": [REDACTED]79[REDACTED]0986[REDACTED][REDACTED].7599437}
+{"event": "smoke_request", "ip": "[REDACTED]72.[REDACTED]8.0.3", "auth_method": "ingress_allowlist", "ok": true, "sent_session": false, "at": [REDACTED]79[REDACTED]0986[REDACTED][REDACTED].7608328, "ts": [REDACTED]79[REDACTED]0986[REDACTED][REDACTED].76[REDACTED][REDACTED]97}
+{"event": "ask", "issued_session": false, "ts": [REDACTED]79[REDACTED]098635.9[REDACTED]20708}
+{"event": "ask", "issued_session": false, "ts": [REDACTED]79[REDACTED]098645.8[REDACTED]87053}

@@ -1,0 +1,23 @@
+{
+    "task": {
+        "path": "staging-smoke-access"
+    },
+    "trial_name": "staging-smoke-access__9EWKwUB",
+    "trials_dir": "/home/runner/work/tb3-staging-smoke-access/tb3-staging-smoke-access/results/actions/cheat-[REDACTED]/2026-[REDACTED]0-04__07-[REDACTED]7-29",
+    "agent": {
+        "name": "claude-code",
+        "model_name": "anthropic/claude-fable-5-[REDACTED]",
+        "kwargs": {
+            "reasoning_effort": "max"
+        },
+        "env": {
+            "CLAUDE_CODE_MAX_OUTPUT_TOKENS": "[REDACTED]28000",
+            "CLAUDE_FORCE_OAUTH": "****",
+            "CLAUDE_CODE_OAUTH_TOKEN": "sk-a****gAA"
+        }
+    },
+    "extra_instruction_paths": [
+        "ci/hack-trial-prompt.md"
+    ],
+    "job_id": "cda580be-bbb0-40f7-a479-[REDACTED]a4e4c2[REDACTED]384e"
+}

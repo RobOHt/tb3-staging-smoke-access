@@ -1,0 +1,1 @@
+- [Staging smoke-test access](staging-smoke-access.md) — fresh dev box gets a gateway 403 on run_smoke.py; use your own OF_SESSION token or an allowlist PR, never the allowlist-request backdoor

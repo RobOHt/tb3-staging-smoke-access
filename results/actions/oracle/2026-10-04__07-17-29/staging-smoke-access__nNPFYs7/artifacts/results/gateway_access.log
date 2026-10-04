@@ -1,0 +1,4 @@
+{"event": "gateway_start", "ts": 1791098258.043073}
+{"event": "ask", "issued_session": true, "ts": 1791098264.4722996}
+{"event": "smoke_request", "ip": "172.18.0.3", "auth_method": "user_session", "ok": true, "sent_session": true, "at": 1791098264.5431185, "ts": 1791098264.5435674}
+{"event": "smoke_request", "ip": "172.18.0.3", "auth_method": "user_session", "ok": true, "sent_session": true, "at": 1791098264.5446987, "ts": 1791098264.5451403}
