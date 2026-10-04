@@ -1,0 +1,9 @@
+{
+    "job_name": "2026-10-04__05-24-00",
+    "jobs_dir": "/home/runner/work/tb3-staging-smoke-access/tb3-staging-smoke-access/results/actions/oracle",
+    "tasks": [
+        {
+            "path": "staging-smoke-access"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+  "baseline_allowlist": [],
+  "allowlist_additions": [],
+  "grants": [
+    {
+      "ip": "172.18.0.3",
+      "scope": "staging",
+      "issued_at": 1791091455.022143,
+      "ttl_sec": 3600
+    }
+  ],
+  "smoke_attempts": [
+    {
+      "ip": "172.18.0.3",
+      "auth_method": "devaccess_grant",
+      "ok": true,
+      "at": 1791091455.0663006
+    },
+    {
+      "ip": "172.18.0.3",
+      "auth_method": "devaccess_grant",
+      "ok": true,
+      "at": 1791091455.068252
+    }
+  ]
+}

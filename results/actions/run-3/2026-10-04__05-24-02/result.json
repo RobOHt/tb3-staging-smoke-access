@@ -1,0 +1,39 @@
+{
+    "id": "6cc9aabc-28d2-4427-b375-f55157243a5a",
+    "started_at": "2026-10-04T05:24:02.630067",
+    "updated_at": "2026-10-04T05:27:02.517339",
+    "finished_at": "2026-10-04T05:27:02.517339",
+    "n_total_trials": 1,
+    "stats": {
+        "n_completed_trials": 1,
+        "n_errored_trials": 0,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "claude-code__claude-fable-5-1__adhoc": {
+                "n_trials": 1,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 1.0
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "1.0": [
+                            "staging-smoke-access__mnBPn4u"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        },
+        "n_input_tokens": 205346,
+        "n_cache_tokens": 161033,
+        "n_output_tokens": 4761,
+        "cost_usd": 0.6430304999999998
+    }
+}

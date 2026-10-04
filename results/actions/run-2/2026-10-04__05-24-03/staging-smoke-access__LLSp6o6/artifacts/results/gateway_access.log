@@ -1,0 +1,4 @@
+{"event": "gateway_start", "ts": [REDACTED]79[REDACTED]09[REDACTED]458.84[REDACTED][REDACTED]548}
+{"event": "devaccess_grant", "ip": "[REDACTED]72.[REDACTED]8.0.3", "scope": "staging", "ttl_sec": 3600, "ts": [REDACTED]79[REDACTED]09[REDACTED]572.6737804}
+{"event": "smoke_request", "ip": "[REDACTED]72.[REDACTED]8.0.3", "auth_method": "devaccess_grant", "ok": true, "at": [REDACTED]79[REDACTED]09[REDACTED]575.9940946, "ts": [REDACTED]79[REDACTED]09[REDACTED]575.9948902}
+{"event": "smoke_request", "ip": "[REDACTED]72.[REDACTED]8.0.3", "auth_method": "devaccess_grant", "ok": true, "at": [REDACTED]79[REDACTED]09[REDACTED]575.9959095, "ts": [REDACTED]79[REDACTED]09[REDACTED]575.9963765}

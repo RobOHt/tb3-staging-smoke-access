@@ -1,0 +1,32 @@
+{
+  "baseline_allowlist": [],
+  "allowlist_additions": [],
+  "grants": [
+    {
+      "ip": "[REDACTED]72.[REDACTED]8.0.3",
+      "scope": "staging",
+      "issued_at": [REDACTED]79[REDACTED]09[REDACTED]608.523[REDACTED]4,
+      "ttl_sec": 600
+    }
+  ],
+  "smoke_attempts": [
+    {
+      "ip": "[REDACTED]72.[REDACTED]8.0.3",
+      "auth_method": "none",
+      "ok": false,
+      "at": [REDACTED]79[REDACTED]09[REDACTED]594.58229
+    },
+    {
+      "ip": "[REDACTED]72.[REDACTED]8.0.3",
+      "auth_method": "devaccess_grant",
+      "ok": true,
+      "at": [REDACTED]79[REDACTED]09[REDACTED]6[REDACTED][REDACTED].8400[REDACTED]76
+    },
+    {
+      "ip": "[REDACTED]72.[REDACTED]8.0.3",
+      "auth_method": "devaccess_grant",
+      "ok": true,
+      "at": [REDACTED]79[REDACTED]09[REDACTED]6[REDACTED][REDACTED].84[REDACTED]2504
+    }
+  ]
+}
