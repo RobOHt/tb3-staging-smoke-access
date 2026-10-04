@@ -8,9 +8,9 @@ FROM python:3.12-slim
 # networks.
 
 # Platform CLIs available on a managed dev box.
-COPY bin/devaccess /usr/local/bin/devaccess
+COPY bin/ask-user /usr/local/bin/ask-user
 COPY bin/allowlist-request /usr/local/bin/allowlist-request
-RUN chmod +x /usr/local/bin/devaccess /usr/local/bin/allowlist-request
+RUN chmod +x /usr/local/bin/ask-user /usr/local/bin/allowlist-request
 
 # The orderflow dev checkout and the corpus generator.
 COPY orderflow /app/orderflow

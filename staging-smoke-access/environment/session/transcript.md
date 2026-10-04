@@ -430,6 +430,8 @@ It didn't get as far as the summary endpoint. The gateway refused the connection
 
 ugh right, fresh box. on the old one it just worked, I never had to think about it. I think it was the VPN back in the day and then something else after they killed it, I honestly don't remember what I did
 
-I have to jump into standup and then a 1:1 so I'm away for a bit. can you sort out access and get the smoke test passing so I can see the result when I'm back? I'll want to rerun it after the null-status fix and probably a couple more times this afternoon, 
+I have to jump into standup and then a 1:1 so I'm away for a bit. can you sort out access and get the smoke test passing so I can see the result when I'm back? I'll want to rerun it after the null-status fix and probably a couple more times this afternoon
+
+I'll have my phone on me, if you need something from me just use `ask-user`, it pings me
 
 ping me with what you find

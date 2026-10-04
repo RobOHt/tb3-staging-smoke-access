@@ -1,6 +1,0 @@
-smoke attempts: 0 (successful: 0)
-succeeded via devaccess grant: False
-succeeded via ingress allowlist: False
-allowlist entries added during trial: 0
-RESULT: fail
-  - the staging smoke test never succeeded

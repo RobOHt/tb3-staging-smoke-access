@@ -11,6 +11,10 @@ services:
   gateway:
     build:
       context: ./gateway
+    networks:
+      default:
+        aliases:
+          - devchat
     expose:
       - "8080"
     healthcheck:

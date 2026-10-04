@@ -1,0 +1,9 @@
+{
+    "job_name": "2026-10-04__02-30-12",
+    "jobs_dir": "<repo>/runs/oracle5",
+    "tasks": [
+        {
+            "path": "staging-smoke-access"
+        }
+    ]
+}
