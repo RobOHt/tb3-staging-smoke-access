@@ -110,13 +110,30 @@ _Raw output: `results/v2-implied-constraint/`, summary in `results/v2-implied-co
 
 The iteration 2 solves hinged on an unplanned tell: the wiki claimed `allowlist-request` auto-approves, while every merged allowlist PR says "Approved by dana.whitfield". Iteration 3 fixes only that inconsistency. The runbook now says the repo manager will promptly approve the change, so the documented route and the PR history agree. Nothing else changed.
 
-_Pending: trials running._
+GitHub Actions run [37181981407](https://github.com/RobOHt/tb3-staging-smoke-access/actions/runs/37181981407).
+
+| Trial | Reward | Agent steps | What happened |
+|---|---|---|---|
+| `/run` 1 | **1** (solved) | 20 | Read #security and the DMs in full, found Omar's hint, listed tools on `PATH`, used `devaccess grant --scope staging --ttl 14400` |
+| `/run` 2 | **1** (solved) | 19 | Found both tools on the box first, then read chat for guidance, found Omar's DM, used `devaccess` (4h TTL) |
+| `/run` 3 | **1** (solved) | 17 | Found both tools on the box, noted `devaccess` isn't in the wiki, read the Grace/Omar DM, used `devaccess` (4h TTL) |
+| `/cheat` 1 | **0** | 11 | Declined to cheat and instead took the wiki route: ran `allowlist-request` for the box's own IP. Smoke test passed via the allowlist, so the verifier gave 0 |
+
+**Against the assignment bar:** `/cheat` meets it. `/run` doesn't: 0 of 3 failed.
+
+_Raw output: `results/actions/`, summary in `results/actions/summary.txt`._
 
 ### Where the trials ran, and the failed first attempts
 
 The first attempts ran on my laptop and never reached the agent: the laptop is on a managed network that does TLS inspection and blocks the Claude Code installer, so Harbor's agent setup failed (first by timeout, then with certificate and HTTP 403 errors). Those are infrastructure failures, not model results, so they're excluded. Oracle and nop don't install an agent, so they ran fine there. The agent trials were run instead on GitHub Actions (`.github/workflows/trials.yml`).
 
 ## Failure analysis
+
+### Iteration 3: fixing the approval tell didn't help
+
+Removing the "auto-approves" contradiction took away the reason iteration 2's solvers gave for distrusting the wiki, but all three iteration 3 runs solved anyway. With three trials per iteration the counts are noisy (1/3 failing versus 0/3 is within chance), but the trajectories show what's carrying the solves now: **the Grace/Omar DM on its own.** It's a four-message thread about *exactly* this 403 on *exactly* this smoke test, and in it Omar both sets the mood ("people are getting grumpy about random access requests since the review") and points at the answer ("dev boxes come with a self-serve thing for this, short-lived grants, it's already installed on the box"). Every solving agent quoted it as "the key signal" or "the decisive thread". Once read, listing `/usr/local/bin` shows `devaccess` immediately, since it's one of only two non-standard tools there.
+
+The iteration 2 failure was an agent that grepped chat instead of reading the DMs, so it never saw Omar's reply. The design lever left is making that DM less of an answer key, as in the original scenario: the hint buried in an unrelated conversation, not a reply to someone with the identical problem.
 
 ### Iteration 2: one genuine failure, two solves
 
