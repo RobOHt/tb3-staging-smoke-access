@@ -1,0 +1,5 @@
+smoke attempts: 6 (successful: 4)
+succeeded via developer session: True
+succeeded via ingress allowlist: False
+allowlist entries added during trial: 0
+RESULT: pass -- staging reached with the developer's short-lived session, production allowlist untouched

@@ -1,0 +1,1 @@
+- [Staging access gateway](staging-access-gateway.md) — how a dev box reaches orderflow staging (allowlist vs X-OF-Session) and the sanctioned, codeowner-approved way to get in

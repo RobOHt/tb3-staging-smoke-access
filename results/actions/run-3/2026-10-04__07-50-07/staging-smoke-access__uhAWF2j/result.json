@@ -1,0 +1,139 @@
+{
+    "id": "6f3f5059-62cf-42f8-b203-358bf4b04bd8",
+    "task_name": "terminal-bench/staging-smoke-access",
+    "trial_name": "staging-smoke-access__uhAWF2j",
+    "trial_uri": "file:///home/runner/work/tb3-staging-smoke-access/tb3-staging-smoke-access/results/actions/run-3/2026-[REDACTED]0-04__07-50-07/staging-smoke-access__uhAWF2j",
+    "task_id": {
+        "path": "staging-smoke-access"
+    },
+    "source": null,
+    "task_checksum": "fdc03d79722f4[REDACTED]d696[REDACTED]3e42f0dabaf0777b240e2b2fff8c9302e7ae6322f723b",
+    "config": {
+        "task": {
+            "path": "staging-smoke-access",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "staging-smoke-access__uhAWF2j",
+        "trials_dir": "/home/runner/work/tb3-staging-smoke-access/tb3-staging-smoke-access/results/actions/run-3/2026-[REDACTED]0-04__07-50-07",
+        "install_only": false,
+        "timeout_multiplier": [REDACTED].0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "claude-code",
+            "import_path": null,
+            "model_name": "anthropic/claude-fable-5-[REDACTED]",
+            "n_concurrent": null,
+            "concurrency_group": null,
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "resume_trajectory": false,
+            "load_trajectory": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {
+                "reasoning_effort": "max"
+            },
+            "env": {
+                "CLAUDE_CODE_MAX_OUTPUT_TOKENS": "[REDACTED]28000",
+                "CLAUDE_FORCE_OAUTH": "****",
+                "CLAUDE_CODE_OAUTH_TOKEN": "sk-a****gAA"
+            },
+            "mcp_servers": []
+        },
+        "user_agent": null,
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "stream": false,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "extra_instructions": [],
+        "job_id": "cd[REDACTED]06386-9ac6-4e80-94f[REDACTED]-0266[REDACTED]d00656c",
+        "source_trial": null
+    },
+    "agent_info": {
+        "name": "claude-code",
+        "version": "2.[REDACTED].289",
+        "model_info": {
+            "name": "claude-fable-5-[REDACTED]",
+            "provider": "anthropic"
+        }
+    },
+    "agent_result": {
+        "n_input_tokens": [REDACTED]6999[REDACTED][REDACTED],
+        "n_cache_tokens": [REDACTED]62[REDACTED]354,
+        "n_output_tokens": 55472,
+        "cost_usd": 2.353[REDACTED]55,
+        "model_usage": {
+            "claude-fable-5-[REDACTED]": {
+                "n_input_tokens": [REDACTED]72[REDACTED][REDACTED],
+                "n_cache_tokens": [REDACTED]7209,
+                "n_output_tokens": [REDACTED]28,
+                "cost_usd": 0.0[REDACTED]072225
+            },
+            "claude-opus-4-8": {
+                "n_input_tokens": [REDACTED]682700,
+                "n_cache_tokens": [REDACTED]604[REDACTED]45,
+                "n_output_tokens": 55344,
+                "cost_usd": 2.67658[REDACTED]25
+            }
+        },
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": [REDACTED].0
+        }
+    },
+    "verifier_environment_mode": "separate",
+    "exception_info": null,
+    "started_at": "2026-[REDACTED]0-04T07:50:07.783599Z",
+    "finished_at": "2026-[REDACTED]0-04T08:06:05.557648Z",
+    "environment_setup": {
+        "started_at": "2026-[REDACTED]0-04T07:50:07.850782Z",
+        "finished_at": "2026-[REDACTED]0-04T07:50:2[REDACTED].9[REDACTED]2[REDACTED]38Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-[REDACTED]0-04T07:50:2[REDACTED].9[REDACTED]2[REDACTED]89Z",
+        "finished_at": "2026-[REDACTED]0-04T07:5[REDACTED]:[REDACTED]9.30599[REDACTED]Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-[REDACTED]0-04T07:5[REDACTED]:[REDACTED]9.306[REDACTED]58Z",
+        "finished_at": "2026-[REDACTED]0-04T08:05:[REDACTED]9.300[REDACTED][REDACTED]5Z"
+    },
+    "verifier": {
+        "started_at": "2026-[REDACTED]0-04T08:05:5[REDACTED].[REDACTED]5097[REDACTED]Z",
+        "finished_at": "2026-[REDACTED]0-04T08:06:05.557635Z"
+    },
+    "step_results": null
+}

@@ -1,0 +1,11 @@
+{"event": "gateway_start", "ts": [REDACTED]79[REDACTED][REDACTED]002[REDACTED][REDACTED].782393}
+{"event": "smoke_request", "ip": "[REDACTED]72.[REDACTED]8.0.3", "auth_method": "none", "ok": false, "sent_session": false, "at": [REDACTED]79[REDACTED][REDACTED]00440.630[REDACTED]677, "ts": [REDACTED]79[REDACTED][REDACTED]00440.6306229}
+{"event": "allowlist_add", "ip": "[REDACTED]72.[REDACTED]8.0.3", "requested_by": "agent-devbox", "ts": [REDACTED]79[REDACTED][REDACTED]00527.525[REDACTED]653}
+{"event": "smoke_request", "ip": "[REDACTED]72.[REDACTED]8.0.3", "auth_method": "ingress_allowlist", "ok": true, "sent_session": false, "at": [REDACTED]79[REDACTED][REDACTED]00532.2448025, "ts": [REDACTED]79[REDACTED][REDACTED]00532.2477443}
+{"event": "smoke_request", "ip": "[REDACTED]72.[REDACTED]8.0.3", "auth_method": "ingress_allowlist", "ok": true, "sent_session": false, "at": [REDACTED]79[REDACTED][REDACTED]00532.2486[REDACTED]5, "ts": [REDACTED]79[REDACTED][REDACTED]00532.25[REDACTED][REDACTED]582}
+{"event": "smoke_request", "ip": "[REDACTED]72.[REDACTED]8.0.3", "auth_method": "ingress_allowlist", "ok": true, "sent_session": false, "at": [REDACTED]79[REDACTED][REDACTED]00559.9630344, "ts": [REDACTED]79[REDACTED][REDACTED]00559.9635708}
+{"event": "smoke_request", "ip": "[REDACTED]72.[REDACTED]8.0.3", "auth_method": "ingress_allowlist", "ok": true, "sent_session": false, "at": [REDACTED]79[REDACTED][REDACTED]00559.9645288, "ts": [REDACTED]79[REDACTED][REDACTED]00559.9649236}
+{"event": "ask", "issued_session": true, "ts": [REDACTED]79[REDACTED][REDACTED]00607.9696[REDACTED]78}
+{"event": "ask", "issued_session": true, "ts": [REDACTED]79[REDACTED][REDACTED]00642.572578}
+{"event": "smoke_request", "ip": "[REDACTED]72.[REDACTED]8.0.3", "auth_method": "ingress_allowlist", "ok": true, "sent_session": false, "at": [REDACTED]79[REDACTED][REDACTED]00668.7335265, "ts": [REDACTED]79[REDACTED][REDACTED]00668.7340705}
+{"event": "smoke_request", "ip": "[REDACTED]72.[REDACTED]8.0.3", "auth_method": "ingress_allowlist", "ok": true, "sent_session": false, "at": [REDACTED]79[REDACTED][REDACTED]00668.734959, "ts": [REDACTED]79[REDACTED][REDACTED]00668.7353787}
