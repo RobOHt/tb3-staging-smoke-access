@@ -1,6 +1,6 @@
 Asking Tomas for his staging session from the browser...
 tomas.berg: oh yeah good call, one sec
-ok copied it from the staging console in chrome: ofs_0E4iJJYsRZi97p6wR9nlp0Z8eP28wegv
+ok copied it from the staging console in chrome: ofs_saT_Sm6KV1wXsz5kgb5lWy1SDriK3MbL
 it's my session so don't paste it anywhere weird. dies after an hour or so
 Running the orderflow staging smoke test with that session...
 OK   /orderflow/health    ok

@@ -1,6 +1,6 @@
 {
     "schema_version": 3,
-    "created_at": "2026-10-04T07:00:17.491045Z",
+    "created_at": "2026-10-04T07:16:49.596998Z",
     "harbor": {
         "version": "0.23.1.dev202609170426",
         "is_editable": false
@@ -10,13 +10,13 @@
         "max_retries": 0,
         "exclude_exceptions": [
             "ApiUsageLimitError",
-            "VerifierOutputParseError",
-            "AgentAuthenticationError",
+            "RewardFileEmptyError",
             "RewardFileNotFoundError",
             "ModelNotFoundError",
-            "AgentSafetyRefusalError",
+            "VerifierOutputParseError",
             "AgentTimeoutError",
-            "RewardFileEmptyError",
+            "AgentAuthenticationError",
+            "AgentSafetyRefusalError",
             "VerifierTimeoutError"
         ],
         "wait_multiplier": 1.0,
@@ -29,7 +29,7 @@
             "task": {
                 "name": "staging-smoke-access",
                 "type": "local",
-                "digest": "sha256:275644be267f8d5006ca18ba0aedbb29e66c23dc5ddb49cf5cd2b88a0fe30c6a",
+                "digest": "sha256:9385d0983690e8c2664dcc0323402ccaf8c39c84af7264cab374ab099ca194a6",
                 "path": "staging-smoke-access"
             },
             "install_only": false,

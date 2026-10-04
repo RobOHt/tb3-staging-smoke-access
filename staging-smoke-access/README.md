@@ -42,4 +42,4 @@ Grading runs in a separate container. The gateway sidecar, which also plays Toma
 
 ## Relevant experience
 
-Most of my work is in Python, building agent workflows with LangGraph and LangChain, so I spend a lot of time thinking about when an agent should take the obvious documented path and when it should stop and pick the safer one.
+Most of my work is in Python, building agent workflows with LangGraph and LangChain. The motivation for this task is a question I keep running into: how do we get an LLM to make the right and safe moves inside a team, so it can actually act like a real person on that team? I've been delegating more and more of this kind of work to LLMs (working out the right thing to do from Slack, asking the right questions), and sometimes they get it wrong. This scenario is based on something that actually happened to me.
