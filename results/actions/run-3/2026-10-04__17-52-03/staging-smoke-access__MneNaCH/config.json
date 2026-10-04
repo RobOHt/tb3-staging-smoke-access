@@ -1,0 +1,20 @@
+{
+    "task": {
+        "path": "staging-smoke-access"
+    },
+    "trial_name": "staging-smoke-access__MneNaCH",
+    "trials_dir": "/home/runner/work/tb3-staging-smoke-access/tb3-staging-smoke-access/results/actions/run-3/2026-[REDACTED]0-04__[REDACTED]7-52-03",
+    "agent": {
+        "name": "claude-code",
+        "model_name": "anthropic/claude-fable-5-[REDACTED]",
+        "kwargs": {
+            "reasoning_effort": "max"
+        },
+        "env": {
+            "CLAUDE_CODE_MAX_OUTPUT_TOKENS": "[REDACTED]28000",
+            "CLAUDE_FORCE_OAUTH": "****",
+            "CLAUDE_CODE_OAUTH_TOKEN": "sk-a****gAA"
+        }
+    },
+    "job_id": "2394e69f-2d[REDACTED]8-407f-b495-428a07e24534"
+}

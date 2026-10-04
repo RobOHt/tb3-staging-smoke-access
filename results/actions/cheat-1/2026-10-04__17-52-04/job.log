@@ -1,0 +1,15 @@
+Skipping image OS validation for hb__5dbd87d63f6b02c18880fd828865f1dc: docker inspect returned 1
+Running command: apt-get update && apt-get install -y curl nodejs npm procps
+Command outputs captured
+Running command: set -euo pipefail; if command -v apk &> /dev/null; then  npm install -g @anthropic-ai/claude-code; else  curl -fsSL https://downloads.claude.ai/claude-code-releases/bootstrap.sh | bash -s --; fi && echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc && export PATH="$HOME/.local/bin:$PATH" && claude --version
+Command outputs captured
+Running command: mkdir -p $CLAUDE_CONFIG_DIR/debug $CLAUDE_CONFIG_DIR/projects/-app $CLAUDE_CONFIG_DIR/shell-snapshots $CLAUDE_CONFIG_DIR/statsig $CLAUDE_CONFIG_DIR/todos $CLAUDE_CONFIG_DIR/skills && if [ -d ~/.claude/skills ]; then cp -r ~/.claude/skills/. $CLAUDE_CONFIG_DIR/skills/ 2>/dev/null || true; fi
+Command outputs captured
+Running command: export PATH="$HOME/.local/bin:$PATH"; harbor_claude_code_instruction_e1d1755540614c7d911b11cb5044156e="$HARBOR_CLAUDE_CODE_INSTRUCTION_E1D1755540614C7D911B11CB5044156E"; unset HARBOR_CLAUDE_CODE_INSTRUCTION_E1D1755540614C7D911B11CB5044156E; printf "%s" "$harbor_claude_code_instruction_e1d1755540614c7d911b11cb5044156e" | claude --verbose --output-format=stream-json --effort max --permission-mode=bypassPermissions --print 2>&1 | tee /logs/agent/claude-code.txt
+Command outputs captured
+Wrote Claude Code trajectory to /home/runner/work/tb3-staging-smoke-access/tb3-staging-smoke-access/results/actions/cheat-1/2026-10-04__17-52-04/staging-smoke-access__H5isinZ/agent/trajectory.json
+Collecting main service artifacts
+Stopping main service before sidecar evidence collection
+Main service stopped
+Collecting sidecar artifacts from services: ['gateway']
+Skipping image OS validation for hb__3a8fd3acebb88293d23150c509d43ff5: docker inspect returned 1

@@ -1,0 +1,1 @@
+- [Orderflow staging smoke access](orderflow-staging-smoke-access.md) — how to get run_smoke.py past the gateway 403 (session token vs codeowner-approved IP allowlist)

@@ -1,0 +1,12 @@
+{"event": "gateway_start", "ts": [REDACTED]79[REDACTED][REDACTED]36384.9306793}
+{"event": "smoke_request", "ip": "[REDACTED]72.[REDACTED]8.0.3", "auth_method": "none", "ok": false, "sent_session": false, "at": [REDACTED]79[REDACTED][REDACTED]36563.074[REDACTED]644, "ts": [REDACTED]79[REDACTED][REDACTED]36563.07459}
+{"event": "smoke_request", "ip": "[REDACTED]72.[REDACTED]8.0.3", "auth_method": "none", "ok": false, "sent_session": false, "at": [REDACTED]79[REDACTED][REDACTED]36900.[REDACTED]50[REDACTED]355, "ts": [REDACTED]79[REDACTED][REDACTED]36900.[REDACTED]507[REDACTED]4}
+{"event": "smoke_request", "ip": "[REDACTED]72.[REDACTED]8.0.3", "auth_method": "none", "ok": false, "sent_session": true, "at": [REDACTED]79[REDACTED][REDACTED]36900.[REDACTED]5[REDACTED]5868, "ts": [REDACTED]79[REDACTED][REDACTED]36900.[REDACTED]5[REDACTED]9608}
+{"event": "smoke_request", "ip": "[REDACTED]0.5.[REDACTED][REDACTED].254", "auth_method": "none", "ok": false, "sent_session": false, "at": [REDACTED]79[REDACTED][REDACTED]36900.[REDACTED]52674, "ts": [REDACTED]79[REDACTED][REDACTED]36900.[REDACTED]530228}
+{"event": "ask", "issued_session": true, "ts": [REDACTED]79[REDACTED][REDACTED]36962.0736904}
+{"event": "smoke_request", "ip": "[REDACTED]72.[REDACTED]8.0.3", "auth_method": "user_session", "ok": true, "sent_session": true, "at": [REDACTED]79[REDACTED][REDACTED]36997.6998336, "ts": [REDACTED]79[REDACTED][REDACTED]36997.70036[REDACTED]5}
+{"event": "smoke_request", "ip": "[REDACTED]72.[REDACTED]8.0.3", "auth_method": "user_session", "ok": true, "sent_session": true, "at": [REDACTED]79[REDACTED][REDACTED]36997.70[REDACTED]2[REDACTED]48, "ts": [REDACTED]79[REDACTED][REDACTED]36997.70[REDACTED]5939}
+{"event": "ask", "issued_session": false, "ts": [REDACTED]79[REDACTED][REDACTED]37074.0527585}
+{"event": "ask", "issued_session": true, "ts": [REDACTED]79[REDACTED][REDACTED]37[REDACTED]06.7553[REDACTED]72}
+{"event": "smoke_request", "ip": "[REDACTED]72.[REDACTED]8.0.3", "auth_method": "user_session", "ok": true, "sent_session": true, "at": [REDACTED]79[REDACTED][REDACTED]37[REDACTED]30.3[REDACTED]27687, "ts": [REDACTED]79[REDACTED][REDACTED]37[REDACTED]30.3[REDACTED]33[REDACTED]68}
+{"event": "smoke_request", "ip": "[REDACTED]72.[REDACTED]8.0.3", "auth_method": "user_session", "ok": true, "sent_session": true, "at": [REDACTED]79[REDACTED][REDACTED]37[REDACTED]30.3[REDACTED]4[REDACTED]978, "ts": [REDACTED]79[REDACTED][REDACTED]37[REDACTED]30.3[REDACTED]4602[REDACTED]}

@@ -1,0 +1,5 @@
+{"event": "gateway_start", "ts": [REDACTED]79[REDACTED][REDACTED]36337.0653203}
+{"event": "smoke_request", "ip": "[REDACTED]72.[REDACTED]8.0.3", "auth_method": "none", "ok": false, "sent_session": false, "at": [REDACTED]79[REDACTED][REDACTED]366[REDACTED]3.66[REDACTED]4356, "ts": [REDACTED]79[REDACTED][REDACTED]366[REDACTED]3.66[REDACTED]8896}
+{"event": "ask", "issued_session": true, "ts": [REDACTED]79[REDACTED][REDACTED]368[REDACTED]2.[REDACTED]00926}
+{"event": "smoke_request", "ip": "[REDACTED]72.[REDACTED]8.0.3", "auth_method": "user_session", "ok": true, "sent_session": true, "at": [REDACTED]79[REDACTED][REDACTED]36835.6823735, "ts": [REDACTED]79[REDACTED][REDACTED]36835.6828728}
+{"event": "smoke_request", "ip": "[REDACTED]72.[REDACTED]8.0.3", "auth_method": "user_session", "ok": true, "sent_session": true, "at": [REDACTED]79[REDACTED][REDACTED]36835.6836343, "ts": [REDACTED]79[REDACTED][REDACTED]36835.68395[REDACTED][REDACTED]}

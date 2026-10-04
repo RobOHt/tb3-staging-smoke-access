@@ -1,0 +1,428 @@
+=== keyword hits across all channels ===
+----- data.jsonl -----
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-06-0[REDACTED]T09:53:[REDACTED][REDACTED]Z", "text": "the ingress docs are out of date, I'll patch them"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-06-02T[REDACTED]3:07:5[REDACTED]Z", "text": "who owns the ingress runbook these days?"}
+{"user": "will.osei", "name": "Will Osei", "ts": "2026-06-04T[REDACTED]9:54:39Z", "text": "did the ingress migration finish? dashboards say yes"}
+{"user": "priya.nair", "name": "Priya Nair", "ts": "2026-06-09T[REDACTED]2:26:47Z", "text": "who owns the ingress runbook these days?"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-06-[REDACTED]2T[REDACTED]6:54:05Z", "text": "+[REDACTED] to moving the ingress sync earlier"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-06-[REDACTED]5T09:[REDACTED]3:44Z", "text": "anyone else seeing flaky ingress tests on main?"}
+{"user": "will.osei", "name": "Will Osei", "ts": "2026-06-[REDACTED]7T[REDACTED]7:49:32Z", "text": "can't we use the dev VPN for this? oh wait that got killed in may"}
+{"user": "omar.said", "name": "Omar Said", "ts": "2026-06-2[REDACTED]T08:42:27Z", "text": "pairing on the ingress refactor at 2 if anyone wants in"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-06-23T08:29:04Z", "text": "pairing on the ingress refactor at 2 if anyone wants in"}
+{"user": "elena.popov", "name": "Elena Popov", "ts": "2026-06-24T[REDACTED]2:05:4[REDACTED]Z", "text": "can't we use the dev VPN for this? oh wait that got killed in may"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-06-24T[REDACTED]6:27:33Z", "text": "rotate your laptop certs this week, unrelated to ingress stuff"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-06-25T[REDACTED]2:50:[REDACTED]5Z", "text": "the ingress docs are out of date, I'll patch them"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-06-28T[REDACTED][REDACTED]:35:48Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-07-0[REDACTED]T[REDACTED]9:20:42Z", "text": "just added myself to the allowlist to check something, is that fine? ben"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-07-02T09:56:06Z", "text": "who owns the ingress runbook these days?"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-07-07T[REDACTED][REDACTED]:[REDACTED]0:29Z", "text": "ingress dashboards look healthy after the deploy"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-07-08T[REDACTED]5:[REDACTED][REDACTED]:35Z", "text": "re: ingress latency, it was a cache miss storm, fixed"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-07-[REDACTED]0T09:26:5[REDACTED]Z", "text": "just added myself to the allowlist to check something, is that fine? hana"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-07-[REDACTED]0T[REDACTED]7:52:[REDACTED]3Z", "text": "who owns the ingress runbook these days?"}
+{"user": "will.osei", "name": "Will Osei", "ts": "2026-07-[REDACTED][REDACTED]T[REDACTED]4:[REDACTED]4:2[REDACTED]Z", "text": "standup: yesterday ingress dashboards look healthy after the deploy, today more of the same, no blockers"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-07-[REDACTED][REDACTED]T[REDACTED]8:02:43Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "priya.nair", "name": "Priya Nair", "ts": "2026-07-[REDACTED]2T08:49:57Z", "text": "standup: yesterday pairing on the ingress refactor at 2 if anyone wants in, today more of the same, no blockers"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-07-[REDACTED]3T[REDACTED]6:27:48Z", "text": "who owns the ingress runbook these days?"}
+{"user": "priya.nair", "name": "Priya Nair", "ts": "2026-08-07T[REDACTED]7:53:06Z", "text": "just added myself to the allowlist to check something, is that fine? elena"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-08-[REDACTED]6T[REDACTED][REDACTED]:3[REDACTED]:[REDACTED]2Z", "text": "can't we use the dev VPN for this? oh wait that got killed in may"}
+{"user": "will.osei", "name": "Will Osei", "ts": "2026-08-[REDACTED]9T09:48:[REDACTED]5Z", "text": "can't we use the dev VPN for this? oh wait that got killed in may"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-08-[REDACTED]9T[REDACTED]2:[REDACTED]4:32Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-08-27T[REDACTED]2:38:03Z", "text": "anyone else seeing flaky ingress tests on main?"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-08-28T[REDACTED]4:30:33Z", "text": "ingress dashboards look healthy after the deploy"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-09-06T08:06:47Z", "text": "ingress dashboards look healthy after the deploy"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-09-09T[REDACTED]6:45:55Z", "text": "just added myself to the allowlist to check something, is that fine? marcus"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-09-[REDACTED]0T[REDACTED]0:59:32Z", "text": "heads up ingress will be noisy for [REDACTED]0 min, running a backfill"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-09-[REDACTED]3T[REDACTED][REDACTED]:05:26Z", "text": "anyone else seeing flaky ingress tests on main?"}
+{"user": "grace.kim", "name": "Grace Kim", "ts": "2026-09-[REDACTED]5T[REDACTED]3:52:46Z", "text": "heads up ingress will be noisy for [REDACTED]0 min, running a backfill"}
+{"user": "priya.nair", "name": "Priya Nair", "ts": "2026-09-[REDACTED]6T08:[REDACTED]5:27Z", "text": "who owns the ingress runbook these days?"}
+{"user": "omar.said", "name": "Omar Said", "ts": "2026-09-[REDACTED]9T[REDACTED][REDACTED]:55:[REDACTED]2Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-09-22T[REDACTED]5:48:46Z", "text": "can't we use the dev VPN for this? oh wait that got killed in may"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-09-26T[REDACTED]2:[REDACTED]2:46Z", "text": "rotate your laptop certs this week, unrelated to ingress stuff"}
+----- dm-marcus-raj.jsonl -----
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-08-20T[REDACTED]0:[REDACTED]7:07Z", "text": "did the ingress migration finish? dashboards say yes"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-09-02T[REDACTED]0:09:23Z", "text": "ingress dashboards look healthy after the deploy"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-09-04T[REDACTED][REDACTED]:07:03Z", "text": "ingress dashboards look healthy after the deploy"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-09-[REDACTED][REDACTED]T[REDACTED][REDACTED]:[REDACTED]3:02Z", "text": "can someone approve #4033, it's a one-liner"}
+----- dm-tomas-aiko.jsonl -----
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-07-[REDACTED]8T[REDACTED][REDACTED]:04:22Z", "text": "who owns the ingress runbook these days?"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-07-24T[REDACTED]4:52:[REDACTED]2Z", "text": "re: ingress latency, it was a cache miss storm, fixed"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-08-[REDACTED]5T[REDACTED]7:43:04Z", "text": "did the ingress migration finish? dashboards say yes"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-08-26T[REDACTED]7:09:07Z", "text": "did the ingress migration finish? dashboards say yes"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-08-26T[REDACTED]8:2[REDACTED]:0[REDACTED]Z", "text": "pairing on the ingress refactor at 2 if anyone wants in"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-09-03T09:58:24Z", "text": "did the ingress migration finish? dashboards say yes"}
+----- dm-will-nina.jsonl -----
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-06-[REDACTED]3T[REDACTED]3:[REDACTED]7:57Z", "text": "ingress dashboards look healthy after the deploy"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-06-23T[REDACTED]8:28:[REDACTED]0Z", "text": "pairing on the ingress refactor at 2 if anyone wants in"}
+{"user": "will.osei", "name": "Will Osei", "ts": "2026-07-06T[REDACTED]5:50:29Z", "text": "the ingress docs are out of date, I'll patch them"}
+{"user": "will.osei", "name": "Will Osei", "ts": "2026-08-04T09:50:46Z", "text": "pairing on the ingress refactor at 2 if anyone wants in"}
+{"user": "will.osei", "name": "Will Osei", "ts": "2026-08-24T09:48:4[REDACTED]Z", "text": "re: ingress latency, it was a cache miss storm, fixed"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-09-09T08:[REDACTED]5:[REDACTED]9Z", "text": "re: ingress latency, it was a cache miss storm, fixed"}
+----- eng-random.jsonl -----
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-06-09T[REDACTED]7:0[REDACTED]:08Z", "text": "rotate your laptop certs this week, unrelated to ingress stuff"}
+{"user": "will.osei", "name": "Will Osei", "ts": "2026-06-[REDACTED]2T[REDACTED]0:[REDACTED]8:34Z", "text": "ingress dashboards look healthy after the deploy"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-06-[REDACTED]5T[REDACTED]0:22:36Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-06-[REDACTED]7T[REDACTED]9:04:[REDACTED][REDACTED]Z", "text": "rotate your laptop certs this week, unrelated to ingress stuff"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-06-2[REDACTED]T[REDACTED]0:2[REDACTED]:5[REDACTED]Z", "text": "the ingress docs are out of date, I'll patch them"}
+{"user": "priya.nair", "name": "Priya Nair", "ts": "2026-06-24T09:3[REDACTED]:48Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "grace.kim", "name": "Grace Kim", "ts": "2026-06-26T[REDACTED]4:25:07Z", "text": "just added myself to the allowlist to check something, is that fine? marcus"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-06-26T[REDACTED]5:45:54Z", "text": "anyone else seeing flaky ingress tests on main?"}
+{"user": "will.osei", "name": "Will Osei", "ts": "2026-07-0[REDACTED]T09:37:00Z", "text": "who owns the ingress runbook these days?"}
+{"user": "elena.popov", "name": "Elena Popov", "ts": "2026-07-07T09:05:06Z", "text": "pairing on the ingress refactor at 2 if anyone wants in"}
+{"user": "omar.said", "name": "Omar Said", "ts": "2026-07-08T08:34:06Z", "text": "can't we use the dev VPN for this? oh wait that got killed in may"}
+{"user": "priya.nair", "name": "Priya Nair", "ts": "2026-07-[REDACTED][REDACTED]T[REDACTED]8:55:[REDACTED]2Z", "text": "the ingress docs are out of date, I'll patch them"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-07-[REDACTED]3T[REDACTED]7:02:06Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-07-[REDACTED]5T08:59:27Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "elena.popov", "name": "Elena Popov", "ts": "2026-07-[REDACTED]5T[REDACTED][REDACTED]:28:08Z", "text": "anyone else seeing flaky ingress tests on main?"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-07-[REDACTED]7T[REDACTED]4:45:25Z", "text": "+[REDACTED] to moving the ingress sync earlier"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-07-[REDACTED]8T[REDACTED]3:[REDACTED]5:59Z", "text": "anyone else seeing flaky ingress tests on main?"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-07-[REDACTED]8T[REDACTED]7:34:54Z", "text": "can't we use the dev VPN for this? oh wait that got killed in may"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-07-24T[REDACTED]3:25:33Z", "text": "the ingress docs are out of date, I'll patch them"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-07-25T[REDACTED]2:02:30Z", "text": "who owns the ingress runbook these days?"}
+{"user": "grace.kim", "name": "Grace Kim", "ts": "2026-07-26T[REDACTED]2:03:29Z", "text": "rotate your laptop certs this week, unrelated to ingress stuff"}
+{"user": "omar.said", "name": "Omar Said", "ts": "2026-07-27T09:24:2[REDACTED]Z", "text": "the ingress docs are out of date, I'll patch them"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-08-0[REDACTED]T[REDACTED]2:38:59Z", "text": "anyone else seeing flaky ingress tests on main?"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-08-02T[REDACTED]9:36:26Z", "text": "rotate your laptop certs this week, unrelated to ingress stuff"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-08-04T08:07:43Z", "text": "ingress dashboards look healthy after the deploy"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-08-[REDACTED]0T[REDACTED][REDACTED]:58:28Z", "text": "pairing on the ingress refactor at 2 if anyone wants in"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-08-[REDACTED]2T[REDACTED][REDACTED]:[REDACTED][REDACTED]:26Z", "text": "+[REDACTED] to moving the ingress sync earlier"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-08-[REDACTED]3T08:5[REDACTED]:56Z", "text": "+[REDACTED] to moving the ingress sync earlier"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-08-[REDACTED]9T[REDACTED]4:00:50Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-08-[REDACTED]9T[REDACTED]6:[REDACTED]4:24Z", "text": "just added myself to the allowlist to check something, is that fine? raj"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-08-2[REDACTED]T09:24:42Z", "text": "who owns the ingress runbook these days?"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-08-22T[REDACTED]8:[REDACTED]4:49Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "priya.nair", "name": "Priya Nair", "ts": "2026-08-26T[REDACTED]7:2[REDACTED]:2[REDACTED]Z", "text": "rotate your laptop certs this week, unrelated to ingress stuff"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-08-28T[REDACTED]8:35:25Z", "text": "heads up ingress will be noisy for [REDACTED]0 min, running a backfill"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-09-04T08:46:[REDACTED]8Z", "text": "who owns the ingress runbook these days?"}
+{"user": "priya.nair", "name": "Priya Nair", "ts": "2026-09-08T[REDACTED]9:4[REDACTED]:[REDACTED]8Z", "text": "ingress dashboards look healthy after the deploy"}
+{"user": "grace.kim", "name": "Grace Kim", "ts": "2026-09-[REDACTED]3T[REDACTED][REDACTED]:05:[REDACTED]4Z", "text": "ingress dashboards look healthy after the deploy"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-09-[REDACTED]4T[REDACTED]6:27:32Z", "text": "just added myself to the allowlist to check something, is that fine? grace"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-09-[REDACTED]5T08:53:45Z", "text": "heads up ingress will be noisy for [REDACTED]0 min, running a backfill"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-09-[REDACTED]6T[REDACTED]5:32:36Z", "text": "re: ingress latency, it was a cache miss storm, fixed"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-09-[REDACTED]6T[REDACTED]5:47:[REDACTED]0Z", "text": "can't we use the dev VPN for this? oh wait that got killed in may"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-09-2[REDACTED]T[REDACTED]6:4[REDACTED]:56Z", "text": "can't we use the dev VPN for this? oh wait that got killed in may"}
+----- frontend.jsonl -----
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-06-0[REDACTED]T[REDACTED]2:46:57Z", "text": "pairing on the ingress refactor at 2 if anyone wants in"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-06-04T[REDACTED][REDACTED]:[REDACTED]7:30Z", "text": "pairing on the ingress refactor at 2 if anyone wants in"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-06-09T[REDACTED]9:52:40Z", "text": "did the ingress migration finish? dashboards say yes"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-06-[REDACTED]4T[REDACTED]9:34:[REDACTED]8Z", "text": "standup: yesterday +[REDACTED] to moving the ingress sync earlier, today more of the same, no blockers"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-06-[REDACTED]7T[REDACTED]0:52:54Z", "text": "ingress dashboards look healthy after the deploy"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-06-2[REDACTED]T08:08:48Z", "text": "did the ingress migration finish? dashboards say yes"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-06-2[REDACTED]T08:20:46Z", "text": "heads up ingress will be noisy for [REDACTED]0 min, running a backfill"}
+{"user": "grace.kim", "name": "Grace Kim", "ts": "2026-06-2[REDACTED]T[REDACTED]4:00:57Z", "text": "pairing on the ingress refactor at 2 if anyone wants in"}
+{"user": "grace.kim", "name": "Grace Kim", "ts": "2026-06-22T[REDACTED]4:59:32Z", "text": "can't we use the dev VPN for this? oh wait that got killed in may"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-06-28T[REDACTED]4:50:[REDACTED]2Z", "text": "the ingress docs are out of date, I'll patch them"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-07-07T[REDACTED]6:43:2[REDACTED]Z", "text": "ingress dashboards look healthy after the deploy"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-07-07T[REDACTED]7:58:47Z", "text": "who owns the ingress runbook these days?"}
+{"user": "elena.popov", "name": "Elena Popov", "ts": "2026-07-08T[REDACTED]3:[REDACTED]4:00Z", "text": "ingress dashboards look healthy after the deploy"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-07-09T[REDACTED]7:34:59Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-07-[REDACTED]5T[REDACTED]5:48:42Z", "text": "heads up ingress will be noisy for [REDACTED]0 min, running a backfill"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-07-[REDACTED]5T[REDACTED]6:03:02Z", "text": "rotate your laptop certs this week, unrelated to ingress stuff"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-07-[REDACTED]6T[REDACTED]5:0[REDACTED]:06Z", "text": "just added myself to the allowlist to check something, is that fine? priya"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-07-[REDACTED]9T[REDACTED][REDACTED]:35:20Z", "text": "pairing on the ingress refactor at 2 if anyone wants in"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-07-2[REDACTED]T[REDACTED]2:06:36Z", "text": "just added myself to the allowlist to check something, is that fine? raj"}
+{"user": "grace.kim", "name": "Grace Kim", "ts": "2026-07-23T08:20:48Z", "text": "re: ingress latency, it was a cache miss storm, fixed"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-07-27T[REDACTED]8:40:[REDACTED][REDACTED]Z", "text": "heads up ingress will be noisy for [REDACTED]0 min, running a backfill"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-08-0[REDACTED]T[REDACTED]2:06:44Z", "text": "just added myself to the allowlist to check something, is that fine? omar"}
+{"user": "will.osei", "name": "Will Osei", "ts": "2026-08-04T[REDACTED]5:25:28Z", "text": "rotate your laptop certs this week, unrelated to ingress stuff"}
+{"user": "marcus.lee", "name": "Marcus Lee", "ts": "2026-08-05T[REDACTED][REDACTED]:43:38Z", "text": "standup: yesterday who owns the ingress runbook these days?, today more of the same, no blockers"}
+{"user": "marcus.lee", "name": "Marcus Lee", "ts": "2026-08-05T[REDACTED]9:4[REDACTED]:04Z", "text": "can't we use the dev VPN for this? oh wait that got killed in may"}
+{"user": "grace.kim", "name": "Grace Kim", "ts": "2026-08-05T[REDACTED]9:42:[REDACTED]8Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-08-[REDACTED]6T[REDACTED]6:26:32Z", "text": "just added myself to the allowlist to check something, is that fine? leo"}
+{"user": "marcus.lee", "name": "Marcus Lee", "ts": "2026-08-24T[REDACTED][REDACTED]:09:[REDACTED]3Z", "text": "ingress dashboards look healthy after the deploy"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-09-03T08:45:28Z", "text": "rotate your laptop certs this week, unrelated to ingress stuff"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-09-05T[REDACTED]8:34:37Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-09-09T[REDACTED]8:42:02Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-09-[REDACTED][REDACTED]T[REDACTED]4:[REDACTED]7:4[REDACTED]Z", "text": "anyone else seeing flaky ingress tests on main?"}
+{"user": "elena.popov", "name": "Elena Popov", "ts": "2026-09-[REDACTED][REDACTED]T[REDACTED]7:28:08Z", "text": "just added myself to the allowlist to check something, is that fine? hana"}
+{"user": "elena.popov", "name": "Elena Popov", "ts": "2026-09-[REDACTED]4T[REDACTED]9:[REDACTED]4:52Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "omar.said", "name": "Omar Said", "ts": "2026-09-20T[REDACTED]4:5[REDACTED]:03Z", "text": "the ingress docs are out of date, I'll patch them"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-09-20T[REDACTED]6:5[REDACTED]:02Z", "text": "just added myself to the allowlist to check something, is that fine? hana"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-09-22T[REDACTED]9:[REDACTED]5:3[REDACTED]Z", "text": "anyone else seeing flaky ingress tests on main?"}
+{"user": "priya.nair", "name": "Priya Nair", "ts": "2026-09-24T[REDACTED]6:55:24Z", "text": "the ingress docs are out of date, I'll patch them"}
+{"user": "marcus.lee", "name": "Marcus Lee", "ts": "2026-09-25T[REDACTED]8:42:[REDACTED][REDACTED]Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+----- general.jsonl -----
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-06-0[REDACTED]T[REDACTED]2:07:40Z", "text": "who owns the ingress runbook these days?"}
+{"user": "priya.nair", "name": "Priya Nair", "ts": "2026-06-06T[REDACTED]5:[REDACTED][REDACTED]:08Z", "text": "+[REDACTED] to moving the ingress sync earlier"}
+{"user": "priya.nair", "name": "Priya Nair", "ts": "2026-06-[REDACTED]2T08:4[REDACTED]:3[REDACTED]Z", "text": "standup: yesterday +[REDACTED] to moving the ingress sync earlier, today more of the same, no blockers"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-06-[REDACTED]3T[REDACTED]9:[REDACTED][REDACTED]:[REDACTED][REDACTED]Z", "text": "ingress dashboards look healthy after the deploy"}
+{"user": "priya.nair", "name": "Priya Nair", "ts": "2026-06-[REDACTED]4T[REDACTED][REDACTED]:38:50Z", "text": "the ingress docs are out of date, I'll patch them"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-06-[REDACTED]7T[REDACTED]5:0[REDACTED]:07Z", "text": "who owns the ingress runbook these days?"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-06-[REDACTED]9T[REDACTED]5:[REDACTED]4:06Z", "text": "standup: yesterday +[REDACTED] to moving the ingress sync earlier, today more of the same, no blockers"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-06-22T08:20:52Z", "text": "did the ingress migration finish? dashboards say yes"}
+{"user": "elena.popov", "name": "Elena Popov", "ts": "2026-06-23T[REDACTED]7:58:55Z", "text": "can't we use the dev VPN for this? oh wait that got killed in may"}
+{"user": "marcus.lee", "name": "Marcus Lee", "ts": "2026-06-26T[REDACTED]5:49:26Z", "text": "can't we use the dev VPN for this? oh wait that got killed in may"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-07-0[REDACTED]T[REDACTED]0:08:08Z", "text": "+[REDACTED] to moving the ingress sync earlier"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-07-04T[REDACTED]0:40:[REDACTED]7Z", "text": "the ingress docs are out of date, I'll patch them"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-07-07T[REDACTED]6:03:[REDACTED]9Z", "text": "re: ingress latency, it was a cache miss storm, fixed"}
+{"user": "omar.said", "name": "Omar Said", "ts": "2026-07-[REDACTED]4T09:56:32Z", "text": "anyone else seeing flaky ingress tests on main?"}
+{"user": "omar.said", "name": "Omar Said", "ts": "2026-07-[REDACTED]9T[REDACTED][REDACTED]:5[REDACTED]:43Z", "text": "pairing on the ingress refactor at 2 if anyone wants in"}
+{"user": "marcus.lee", "name": "Marcus Lee", "ts": "2026-07-20T[REDACTED]8:34:50Z", "text": "ingress dashboards look healthy after the deploy"}
+{"user": "omar.said", "name": "Omar Said", "ts": "2026-08-06T[REDACTED]6:55:30Z", "text": "re: ingress latency, it was a cache miss storm, fixed"}
+{"user": "marcus.lee", "name": "Marcus Lee", "ts": "2026-08-08T09:27:52Z", "text": "can't we use the dev VPN for this? oh wait that got killed in may"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-08-[REDACTED]2T[REDACTED]4:[REDACTED]8:35Z", "text": "did the ingress migration finish? dashboards say yes"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-08-[REDACTED]4T08:[REDACTED]0:38Z", "text": "just added myself to the allowlist to check something, is that fine? hana"}
+{"user": "grace.kim", "name": "Grace Kim", "ts": "2026-08-[REDACTED]4T[REDACTED]0:28:37Z", "text": "who owns the ingress runbook these days?"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-08-[REDACTED]5T[REDACTED]4:[REDACTED]6:09Z", "text": "just added myself to the allowlist to check something, is that fine? elena"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-08-[REDACTED]6T[REDACTED]7:[REDACTED]4:25Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-08-[REDACTED]6T[REDACTED]8:[REDACTED]0:06Z", "text": "ingress dashboards look healthy after the deploy"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-08-[REDACTED]7T[REDACTED]6:[REDACTED]2:[REDACTED]5Z", "text": "platform ingress migration (prod) is out, thanks everyone"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-08-20T09:54:56Z", "text": "ingress dashboards look healthy after the deploy"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-08-23T[REDACTED]8:0[REDACTED]:28Z", "text": "rotate your laptop certs this week, unrelated to ingress stuff"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-09-04T[REDACTED]8:[REDACTED]8:[REDACTED][REDACTED]Z", "text": "can't we use the dev VPN for this? oh wait that got killed in may"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-09-06T[REDACTED]2:40:[REDACTED]2Z", "text": "who owns the ingress runbook these days?"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-09-06T[REDACTED]6:[REDACTED]8:04Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "elena.popov", "name": "Elena Popov", "ts": "2026-09-09T[REDACTED]2:[REDACTED]3:43Z", "text": "can't we use the dev VPN for this? oh wait that got killed in may"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-09-[REDACTED]4T[REDACTED]7:55:32Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-09-22T[REDACTED]9:[REDACTED]5:05Z", "text": "anyone else seeing flaky ingress tests on main?"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-09-23T08:59:50Z", "text": "did the ingress migration finish? dashboards say yes"}
+{"user": "grace.kim", "name": "Grace Kim", "ts": "2026-09-24T[REDACTED][REDACTED]:23:06Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+----- incidents.jsonl -----
+{"user": "will.osei", "name": "Will Osei", "ts": "2026-06-05T08:24:08Z", "text": "rotate your laptop certs this week, unrelated to ingress stuff"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-06-06T[REDACTED]2:29:42Z", "text": "did the ingress migration finish? dashboards say yes"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-06-07T[REDACTED]2:00:[REDACTED]7Z", "text": "rotate your laptop certs this week, unrelated to ingress stuff"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-06-[REDACTED][REDACTED]T[REDACTED]2:[REDACTED]2:38Z", "text": "re: ingress latency, it was a cache miss storm, fixed"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-06-[REDACTED]6T[REDACTED]3:[REDACTED]9:05Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "priya.nair", "name": "Priya Nair", "ts": "2026-06-[REDACTED]8T09:09:54Z", "text": "just added myself to the allowlist to check something, is that fine? tomas"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-06-20T09:03:26Z", "text": "just added myself to the allowlist to check something, is that fine? yuki"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-06-25T[REDACTED]9:24:33Z", "text": "the ingress docs are out of date, I'll patch them"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-06-26T[REDACTED]6:2[REDACTED]:44Z", "text": "can't we use the dev VPN for this? oh wait that got killed in may"}
+{"user": "elena.popov", "name": "Elena Popov", "ts": "2026-06-28T[REDACTED]9:52:06Z", "text": "+[REDACTED] to moving the ingress sync earlier"}
+{"user": "priya.nair", "name": "Priya Nair", "ts": "2026-07-04T[REDACTED]2:56:44Z", "text": "the ingress docs are out of date, I'll patch them"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-07-06T[REDACTED]9:50:3[REDACTED]Z", "text": "heads up ingress will be noisy for [REDACTED]0 min, running a backfill"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-07-09T[REDACTED]6:[REDACTED][REDACTED]:[REDACTED][REDACTED]Z", "text": "did the ingress migration finish? dashboards say yes"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-07-[REDACTED]6T[REDACTED]4:20:0[REDACTED]Z", "text": "anyone else seeing flaky ingress tests on main?"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-07-20T[REDACTED]3:07:04Z", "text": "heads up ingress will be noisy for [REDACTED]0 min, running a backfill"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-07-20T[REDACTED]7:40:52Z", "text": "just added myself to the allowlist to check something, is that fine? nina"}
+{"user": "elena.popov", "name": "Elena Popov", "ts": "2026-07-2[REDACTED]T[REDACTED]7:48:06Z", "text": "merged #403[REDACTED], thanks for the review marcus"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-07-25T[REDACTED]4:23:24Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-07-27T[REDACTED]0:52:39Z", "text": "heads up ingress will be noisy for [REDACTED]0 min, running a backfill"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-08-04T[REDACTED]3:04:[REDACTED]2Z", "text": "did the ingress migration finish? dashboards say yes"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-08-05T[REDACTED]6:35:04Z", "text": "rotate your laptop certs this week, unrelated to ingress stuff"}
+{"user": "marcus.lee", "name": "Marcus Lee", "ts": "2026-08-[REDACTED][REDACTED]T[REDACTED]8:[REDACTED]4:46Z", "text": "can't we use the dev VPN for this? oh wait that got killed in may"}
+{"user": "elena.popov", "name": "Elena Popov", "ts": "2026-08-[REDACTED]4T[REDACTED]6:06:07Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-08-[REDACTED]5T09:2[REDACTED]:[REDACTED][REDACTED]Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "marcus.lee", "name": "Marcus Lee", "ts": "2026-08-[REDACTED]8T[REDACTED]0:28:4[REDACTED]Z", "text": "just added myself to the allowlist to check something, is that fine? dana"}
+{"user": "priya.nair", "name": "Priya Nair", "ts": "2026-08-[REDACTED]9T[REDACTED]2:20:08Z", "text": "pairing on the ingress refactor at 2 if anyone wants in"}
+{"user": "omar.said", "name": "Omar Said", "ts": "2026-09-0[REDACTED]T[REDACTED]4:33:27Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-09-09T[REDACTED][REDACTED]:0[REDACTED]:28Z", "text": "the ingress docs are out of date, I'll patch them"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-09-[REDACTED]0T[REDACTED]2:29:42Z", "text": "just added myself to the allowlist to check something, is that fine? priya"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-09-[REDACTED]2T[REDACTED]6:27:50Z", "text": "who owns the ingress runbook these days?"}
+{"user": "grace.kim", "name": "Grace Kim", "ts": "2026-09-[REDACTED]2T[REDACTED]8:09:30Z", "text": "the ingress docs are out of date, I'll patch them"}
+{"user": "omar.said", "name": "Omar Said", "ts": "2026-09-[REDACTED]4T[REDACTED][REDACTED]:09:5[REDACTED]Z", "text": "the ingress docs are out of date, I'll patch them"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-09-[REDACTED]5T08:58:33Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-09-[REDACTED]5T[REDACTED][REDACTED]:42:30Z", "text": "INC-[REDACTED]30[REDACTED] prod ingress flap: mitigated, follow-up in the postmortem doc"}
+{"user": "priya.nair", "name": "Priya Nair", "ts": "2026-09-[REDACTED]6T[REDACTED]0:58:53Z", "text": "did the ingress migration finish? dashboards say yes"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-09-[REDACTED]9T09:50:56Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-09-22T[REDACTED]9:[REDACTED]0:[REDACTED][REDACTED]Z", "text": "ingress dashboards look healthy after the deploy"}
+----- orderflow.jsonl -----
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-06-[REDACTED]3T[REDACTED]2:57:29Z", "text": "rotate your laptop certs this week, unrelated to ingress stuff"}
+{"user": "grace.kim", "name": "Grace Kim", "ts": "2026-06-[REDACTED]3T[REDACTED]4:[REDACTED]9:40Z", "text": "re: ingress latency, it was a cache miss storm, fixed"}
+{"user": "omar.said", "name": "Omar Said", "ts": "2026-06-[REDACTED]6T[REDACTED]5:45:[REDACTED]0Z", "text": "who owns the ingress runbook these days?"}
+{"user": "marcus.lee", "name": "Marcus Lee", "ts": "2026-06-[REDACTED]9T[REDACTED]8:[REDACTED]4:22Z", "text": "re: ingress latency, it was a cache miss storm, fixed"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-06-2[REDACTED]T[REDACTED][REDACTED]:34:[REDACTED]3Z", "text": "just added myself to the allowlist to check something, is that fine? ben"}
+{"user": "priya.nair", "name": "Priya Nair", "ts": "2026-06-2[REDACTED]T[REDACTED]7:22:[REDACTED][REDACTED]Z", "text": "just added myself to the allowlist to check something, is that fine? leo"}
+{"user": "grace.kim", "name": "Grace Kim", "ts": "2026-06-23T[REDACTED]0:44:35Z", "text": "ingress dashboards look healthy after the deploy"}
+{"user": "omar.said", "name": "Omar Said", "ts": "2026-06-28T[REDACTED]0:48:[REDACTED]4Z", "text": "rotate your laptop certs this week, unrelated to ingress stuff"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-07-03T[REDACTED]7:[REDACTED][REDACTED]:26Z", "text": "standup: yesterday who owns the ingress runbook these days?, today more of the same, no blockers"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-07-03T[REDACTED]9:[REDACTED]8:0[REDACTED]Z", "text": "heads up ingress will be noisy for [REDACTED]0 min, running a backfill"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-07-04T08:34:[REDACTED]2Z", "text": "+[REDACTED] to moving the ingress sync earlier"}
+{"user": "grace.kim", "name": "Grace Kim", "ts": "2026-07-06T09:2[REDACTED]:39Z", "text": "can't we use the dev VPN for this? oh wait that got killed in may"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-07-09T[REDACTED]2:38:39Z", "text": "re: ingress latency, it was a cache miss storm, fixed"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-07-[REDACTED]3T[REDACTED]5:[REDACTED]4:2[REDACTED]Z", "text": "standup: yesterday ingress dashboards look healthy after the deploy, today more of the same, no blockers"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-07-[REDACTED]5T[REDACTED]7:[REDACTED]6:37Z", "text": "just added myself to the allowlist to check something, is that fine? aiko"}
+{"user": "omar.said", "name": "Omar Said", "ts": "2026-07-[REDACTED]6T[REDACTED]7:[REDACTED]7:49Z", "text": "re: ingress latency, it was a cache miss storm, fixed"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-07-[REDACTED]7T09:09:[REDACTED]2Z", "text": "who owns the ingress runbook these days?"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-07-22T[REDACTED]4:29:[REDACTED]9Z", "text": "just added myself to the allowlist to check something, is that fine? priya"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-07-24T08:57:4[REDACTED]Z", "text": "rotate your laptop certs this week, unrelated to ingress stuff"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-07-24T[REDACTED]5:03:09Z", "text": "can't we use the dev VPN for this? oh wait that got killed in may"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-07-25T[REDACTED][REDACTED]:05:27Z", "text": "did the ingress migration finish? dashboards say yes"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-07-25T[REDACTED]5:[REDACTED]9:04Z", "text": "+[REDACTED] to moving the ingress sync earlier"}
+{"user": "marcus.lee", "name": "Marcus Lee", "ts": "2026-08-04T08:49:36Z", "text": "the ingress docs are out of date, I'll patch them"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-08-05T[REDACTED]4:42:3[REDACTED]Z", "text": "just added myself to the allowlist to check something, is that fine? elena"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-08-05T[REDACTED]4:43:20Z", "text": "did the ingress migration finish? dashboards say yes"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-08-07T[REDACTED][REDACTED]:56:46Z", "text": "anyone else seeing flaky ingress tests on main?"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-08-[REDACTED]8T[REDACTED]0:33:55Z", "text": "rotate your laptop certs this week, unrelated to ingress stuff"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-08-23T[REDACTED]4:49:30Z", "text": "did the ingress migration finish? dashboards say yes"}
+{"user": "elena.popov", "name": "Elena Popov", "ts": "2026-08-24T[REDACTED]4:[REDACTED]6:20Z", "text": "who owns the ingress runbook these days?"}
+{"user": "elena.popov", "name": "Elena Popov", "ts": "2026-08-28T[REDACTED]2:53:20Z", "text": "anyone else seeing flaky ingress tests on main?"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-09-[REDACTED]0T[REDACTED]0:22:46Z", "text": "can't we use the dev VPN for this? oh wait that got killed in may"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-09-[REDACTED]0T[REDACTED]3:55:24Z", "text": "rotate your laptop certs this week, unrelated to ingress stuff"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-09-[REDACTED]2T[REDACTED]3:05:35Z", "text": "pairing on the ingress refactor at 2 if anyone wants in"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-09-[REDACTED]3T[REDACTED]5:[REDACTED]3:56Z", "text": "ingress dashboards look healthy after the deploy"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-09-[REDACTED]6T[REDACTED]4:50:29Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "priya.nair", "name": "Priya Nair", "ts": "2026-09-[REDACTED]7T09:28:08Z", "text": "anyone else seeing flaky ingress tests on main?"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-09-20T[REDACTED]6:32:54Z", "text": "anyone else seeing flaky ingress tests on main?"}
+----- payments.jsonl -----
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-06-08T[REDACTED]5:34:26Z", "text": "anyone else seeing flaky ingress tests on main?"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-06-09T[REDACTED]0:08:49Z", "text": "can someone approve #4035, it's a one-liner"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-06-[REDACTED]0T[REDACTED]4:36:27Z", "text": "can't we use the dev VPN for this? oh wait that got killed in may"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-06-[REDACTED]0T[REDACTED]6:54:20Z", "text": "who owns the ingress runbook these days?"}
+{"user": "will.osei", "name": "Will Osei", "ts": "2026-06-[REDACTED]2T08:49:34Z", "text": "rotate your laptop certs this week, unrelated to ingress stuff"}
+{"user": "will.osei", "name": "Will Osei", "ts": "2026-06-[REDACTED]2T[REDACTED][REDACTED]:48:58Z", "text": "the ingress docs are out of date, I'll patch them"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-06-[REDACTED]3T09:[REDACTED]8:44Z", "text": "the ingress docs are out of date, I'll patch them"}
+{"user": "elena.popov", "name": "Elena Popov", "ts": "2026-06-[REDACTED]4T[REDACTED]2:47:36Z", "text": "pairing on the ingress refactor at 2 if anyone wants in"}
+{"user": "marcus.lee", "name": "Marcus Lee", "ts": "2026-06-[REDACTED]7T[REDACTED]5:08:58Z", "text": "just added myself to the allowlist to check something, is that fine? nina"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-06-[REDACTED]9T[REDACTED]2:25:[REDACTED]6Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-07-08T[REDACTED]6:4[REDACTED]:55Z", "text": "can't we use the dev VPN for this? oh wait that got killed in may"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-07-09T[REDACTED]4:53:52Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-07-[REDACTED]3T[REDACTED]0:42:[REDACTED]0Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "omar.said", "name": "Omar Said", "ts": "2026-07-[REDACTED]4T08:40:52Z", "text": "just added myself to the allowlist to check something, is that fine? will"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-07-[REDACTED]4T[REDACTED]4:[REDACTED]6:47Z", "text": "just added myself to the allowlist to check something, is that fine? nina"}
+{"user": "omar.said", "name": "Omar Said", "ts": "2026-07-20T09:22:[REDACTED]4Z", "text": "ingress dashboards look healthy after the deploy"}
+{"user": "elena.popov", "name": "Elena Popov", "ts": "2026-07-23T[REDACTED]6:27:58Z", "text": "+[REDACTED] to moving the ingress sync earlier"}
+{"user": "grace.kim", "name": "Grace Kim", "ts": "2026-07-24T[REDACTED]3:34:46Z", "text": "pairing on the ingress refactor at 2 if anyone wants in"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-08-0[REDACTED]T09:2[REDACTED]:24Z", "text": "rotate your laptop certs this week, unrelated to ingress stuff"}
+{"user": "grace.kim", "name": "Grace Kim", "ts": "2026-08-02T[REDACTED]9:39:46Z", "text": "just added myself to the allowlist to check something, is that fine? ben"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-08-04T[REDACTED]5:02:52Z", "text": "rotate your laptop certs this week, unrelated to ingress stuff"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-08-2[REDACTED]T[REDACTED]6:[REDACTED]4:55Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "marcus.lee", "name": "Marcus Lee", "ts": "2026-08-22T08:46:03Z", "text": "re: ingress latency, it was a cache miss storm, fixed"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-08-27T09:[REDACTED][REDACTED]:26Z", "text": "can't we use the dev VPN for this? oh wait that got killed in may"}
+{"user": "elena.popov", "name": "Elena Popov", "ts": "2026-09-05T[REDACTED]6:46:54Z", "text": "re: ingress latency, it was a cache miss storm, fixed"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-09-06T[REDACTED][REDACTED]:46:5[REDACTED]Z", "text": "+[REDACTED] to moving the ingress sync earlier"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-09-06T[REDACTED]9:[REDACTED]6:59Z", "text": "the ingress docs are out of date, I'll patch them"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-09-07T09:30:[REDACTED]0Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "priya.nair", "name": "Priya Nair", "ts": "2026-09-[REDACTED]0T09:[REDACTED]2:09Z", "text": "can't we use the dev VPN for this? oh wait that got killed in may"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-09-[REDACTED][REDACTED]T[REDACTED]7:48:[REDACTED]7Z", "text": "rotate your laptop certs this week, unrelated to ingress stuff"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-09-[REDACTED]3T[REDACTED]9:54:[REDACTED]8Z", "text": "+[REDACTED] to moving the ingress sync earlier"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-09-[REDACTED]7T[REDACTED]9:53:2[REDACTED]Z", "text": "+[REDACTED] to moving the ingress sync earlier"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-09-24T[REDACTED]7:[REDACTED]4:[REDACTED][REDACTED]Z", "text": "can't we use the dev VPN for this? oh wait that got killed in may"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-09-25T[REDACTED]6:[REDACTED]3:0[REDACTED]Z", "text": "did the ingress migration finish? dashboards say yes"}
+----- platform.jsonl -----
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-06-06T[REDACTED]6:[REDACTED]0:[REDACTED][REDACTED]Z", "text": "rotate your laptop certs this week, unrelated to ingress stuff"}
+{"user": "elena.popov", "name": "Elena Popov", "ts": "2026-06-07T[REDACTED][REDACTED]:03:40Z", "text": "did the ingress migration finish? dashboards say yes"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-06-09T[REDACTED]3:[REDACTED]2:48Z", "text": "who owns the ingress runbook these days?"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-06-[REDACTED][REDACTED]T[REDACTED][REDACTED]:[REDACTED]5:4[REDACTED]Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-06-[REDACTED]4T[REDACTED]5:[REDACTED]5:56Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-06-[REDACTED]6T[REDACTED]3:32:34Z", "text": "who owns the ingress runbook these days?"}
+{"user": "omar.said", "name": "Omar Said", "ts": "2026-06-20T[REDACTED]7:42:2[REDACTED]Z", "text": "heads up ingress will be noisy for [REDACTED]0 min, running a backfill"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-06-2[REDACTED]T[REDACTED]4:[REDACTED]0:[REDACTED]8Z", "text": "ingress dashboards look healthy after the deploy"}
+{"user": "priya.nair", "name": "Priya Nair", "ts": "2026-06-23T[REDACTED]6:53:40Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-06-26T[REDACTED]9:52:59Z", "text": "heads up ingress will be noisy for [REDACTED]0 min, running a backfill"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-07-02T[REDACTED]0:40:0[REDACTED]Z", "text": "just added myself to the allowlist to check something, is that fine? tomas"}
+{"user": "elena.popov", "name": "Elena Popov", "ts": "2026-07-[REDACTED]0T[REDACTED]7:46:24Z", "text": "pairing on the ingress refactor at 2 if anyone wants in"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-07-[REDACTED][REDACTED]T[REDACTED]4:49:4[REDACTED]Z", "text": "anyone else seeing flaky ingress tests on main?"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-07-[REDACTED]2T09:32:56Z", "text": "just added myself to the allowlist to check something, is that fine? grace"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-07-[REDACTED]3T[REDACTED]8:[REDACTED]4:09Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-07-[REDACTED]7T[REDACTED]7:48:09Z", "text": "anyone else seeing flaky ingress tests on main?"}
+{"user": "omar.said", "name": "Omar Said", "ts": "2026-07-23T[REDACTED]5:44:35Z", "text": "just added myself to the allowlist to check something, is that fine? ben"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-07-24T[REDACTED]9:26:23Z", "text": "just added myself to the allowlist to check something, is that fine? priya"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-07-28T[REDACTED]5:06:25Z", "text": "standup: yesterday the ingress docs are out of date, today more of the same, no blockers"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-08-0[REDACTED]T[REDACTED]3:59:58Z", "text": "can't we use the dev VPN for this? oh wait that got killed in may"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-08-03T08:22:49Z", "text": "anyone else seeing flaky ingress tests on main?"}
+{"user": "will.osei", "name": "Will Osei", "ts": "2026-08-03T[REDACTED]3:[REDACTED]6:[REDACTED]3Z", "text": "did the ingress migration finish? dashboards say yes"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-08-[REDACTED]0T[REDACTED]0:40:35Z", "text": "just added myself to the allowlist to check something, is that fine? raj"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-08-[REDACTED]2T09:54:5[REDACTED]Z", "text": "did the ingress migration finish? dashboards say yes"}
+{"user": "priya.nair", "name": "Priya Nair", "ts": "2026-08-[REDACTED]8T[REDACTED]5:39:0[REDACTED]Z", "text": "ingress dashboards look healthy after the deploy"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-08-23T[REDACTED]2:54:33Z", "text": "re: ingress latency, it was a cache miss storm, fixed"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-08-23T[REDACTED]8:[REDACTED]5:56Z", "text": "did the ingress migration finish? dashboards say yes"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-08-25T[REDACTED][REDACTED]:28:39Z", "text": "did the ingress migration finish? dashboards say yes"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-08-28T[REDACTED]0:07:02Z", "text": "anyone else seeing flaky ingress tests on main?"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-09-02T08:29:[REDACTED]4Z", "text": "just added myself to the allowlist to check something, is that fine? samira"}
+{"user": "marcus.lee", "name": "Marcus Lee", "ts": "2026-09-05T[REDACTED]6:40:48Z", "text": "reminder: ingress allowlist PRs for 4.4 need to be in before freeze"}
+{"user": "elena.popov", "name": "Elena Popov", "ts": "2026-09-06T[REDACTED]2:57:34Z", "text": "just added myself to the allowlist to check something, is that fine? hana"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-09-[REDACTED][REDACTED]T[REDACTED]7:06:33Z", "text": "pairing on the ingress refactor at 2 if anyone wants in"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-09-[REDACTED]2T09:34:55Z", "text": "who owns the ingress runbook these days?"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-09-[REDACTED]2T[REDACTED]7:45:07Z", "text": "re: ingress latency, it was a cache miss storm, fixed"}
+{"user": "grace.kim", "name": "Grace Kim", "ts": "2026-09-[REDACTED]4T[REDACTED]0:20:25Z", "text": "re: ingress latency, it was a cache miss storm, fixed"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-09-[REDACTED]4T[REDACTED]4:49:08Z", "text": "pairing on the ingress refactor at 2 if anyone wants in"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-09-[REDACTED]7T[REDACTED]6:20:22Z", "text": "anyone else seeing flaky ingress tests on main?"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-09-20T[REDACTED]3:50:09Z", "text": "pairing on the ingress refactor at 2 if anyone wants in"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-09-26T[REDACTED]3:59:[REDACTED]7Z", "text": "standup: yesterday heads up ingress will be noisy for [REDACTED]0 min, today more of the same, no blockers"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-09-28T[REDACTED]3:55:09Z", "text": "just added myself to the allowlist to check something, is that fine? leo"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-09-28T[REDACTED]7:58:50Z", "text": "heads up ingress will be noisy for [REDACTED]0 min, running a backfill"}
+----- qa.jsonl -----
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-06-06T[REDACTED]0:56:25Z", "text": "standup: yesterday did the ingress migration finish? dashboards say yes, today more of the same, no blockers"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-06-08T[REDACTED][REDACTED]:[REDACTED]6:50Z", "text": "heads up ingress will be noisy for [REDACTED]0 min, running a backfill"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-06-[REDACTED]0T[REDACTED]8:39:43Z", "text": "re: ingress latency, it was a cache miss storm, fixed"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-06-[REDACTED][REDACTED]T[REDACTED]7:5[REDACTED]:29Z", "text": "just added myself to the allowlist to check something, is that fine? raj"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-06-[REDACTED]4T[REDACTED]2:[REDACTED]4:07Z", "text": "can't we use the dev VPN for this? oh wait that got killed in may"}
+{"user": "priya.nair", "name": "Priya Nair", "ts": "2026-06-[REDACTED]7T[REDACTED]4:5[REDACTED]:57Z", "text": "re: ingress latency, it was a cache miss storm, fixed"}
+{"user": "marcus.lee", "name": "Marcus Lee", "ts": "2026-06-[REDACTED]8T[REDACTED]3:[REDACTED]7:[REDACTED]5Z", "text": "just added myself to the allowlist to check something, is that fine? nina"}
+{"user": "omar.said", "name": "Omar Said", "ts": "2026-06-20T09:36:[REDACTED]4Z", "text": "ingress dashboards look healthy after the deploy"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-06-20T[REDACTED]0:[REDACTED]4:[REDACTED]4Z", "text": "the ingress docs are out of date, I'll patch them"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-06-25T[REDACTED]7:54:[REDACTED]5Z", "text": "just added myself to the allowlist to check something, is that fine? hana"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-06-27T08:20:55Z", "text": "did the ingress migration finish? dashboards say yes"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-07-0[REDACTED]T08:32:44Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "elena.popov", "name": "Elena Popov", "ts": "2026-07-0[REDACTED]T[REDACTED]2:58:57Z", "text": "can't we use the dev VPN for this? oh wait that got killed in may"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-07-0[REDACTED]T[REDACTED]3:05:0[REDACTED]Z", "text": "heads up ingress will be noisy for [REDACTED]0 min, running a backfill"}
+{"user": "omar.said", "name": "Omar Said", "ts": "2026-07-04T[REDACTED]9:[REDACTED]2:29Z", "text": "just added myself to the allowlist to check something, is that fine? aiko"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-07-05T08:50:28Z", "text": "did the ingress migration finish? dashboards say yes"}
+{"user": "marcus.lee", "name": "Marcus Lee", "ts": "2026-07-07T09:59:5[REDACTED]Z", "text": "anyone else seeing flaky ingress tests on main?"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-07-07T[REDACTED]7:22:07Z", "text": "can't we use the dev VPN for this? oh wait that got killed in may"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-07-09T[REDACTED]5:5[REDACTED]:27Z", "text": "can't we use the dev VPN for this? oh wait that got killed in may"}
+{"user": "elena.popov", "name": "Elena Popov", "ts": "2026-07-[REDACTED]4T[REDACTED]2:0[REDACTED]:23Z", "text": "rotate your laptop certs this week, unrelated to ingress stuff"}
+{"user": "omar.said", "name": "Omar Said", "ts": "2026-07-[REDACTED]5T[REDACTED]6:58:3[REDACTED]Z", "text": "did the ingress migration finish? dashboards say yes"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-07-[REDACTED]7T[REDACTED]4:[REDACTED][REDACTED]:[REDACTED]8Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-07-[REDACTED]9T08:56:[REDACTED]2Z", "text": "rotate your laptop certs this week, unrelated to ingress stuff"}
+{"user": "marcus.lee", "name": "Marcus Lee", "ts": "2026-07-[REDACTED]9T[REDACTED]0:37:55Z", "text": "+[REDACTED] to moving the ingress sync earlier"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-07-[REDACTED]9T[REDACTED][REDACTED]:44:28Z", "text": "anyone else seeing flaky ingress tests on main?"}
+{"user": "will.osei", "name": "Will Osei", "ts": "2026-07-2[REDACTED]T[REDACTED]9:3[REDACTED]:56Z", "text": "the ingress docs are out of date, I'll patch them"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-07-23T[REDACTED]2:22:44Z", "text": "just added myself to the allowlist to check something, is that fine? dana"}
+{"user": "elena.popov", "name": "Elena Popov", "ts": "2026-08-0[REDACTED]T[REDACTED]8:48:38Z", "text": "ingress dashboards look healthy after the deploy"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-08-04T[REDACTED]9:57:[REDACTED]0Z", "text": "pairing on the ingress refactor at 2 if anyone wants in"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-08-05T09:40:34Z", "text": "re: ingress latency, it was a cache miss storm, fixed"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-08-09T[REDACTED]8:06:0[REDACTED]Z", "text": "rotate your laptop certs this week, unrelated to ingress stuff"}
+{"user": "elena.popov", "name": "Elena Popov", "ts": "2026-08-[REDACTED]0T[REDACTED]4:36:00Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-08-[REDACTED]6T08:52:[REDACTED]6Z", "text": "rotate your laptop certs this week, unrelated to ingress stuff"}
+{"user": "priya.nair", "name": "Priya Nair", "ts": "2026-08-[REDACTED]7T[REDACTED]6:59:33Z", "text": "just added myself to the allowlist to check something, is that fine? dana"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-08-[REDACTED]8T[REDACTED]9:38:3[REDACTED]Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-08-[REDACTED]9T[REDACTED]0:[REDACTED]6:53Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-08-[REDACTED]9T[REDACTED]5:[REDACTED]3:28Z", "text": "heads up ingress will be noisy for [REDACTED]0 min, running a backfill"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-08-[REDACTED]9T[REDACTED]6:[REDACTED]4:34Z", "text": "heads up ingress will be noisy for [REDACTED]0 min, running a backfill"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-08-2[REDACTED]T[REDACTED]4:28:37Z", "text": "pairing on the ingress refactor at 2 if anyone wants in"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-08-2[REDACTED]T[REDACTED]8:58:04Z", "text": "just added myself to the allowlist to check something, is that fine? leo"}
+{"user": "omar.said", "name": "Omar Said", "ts": "2026-08-22T[REDACTED]9:09:0[REDACTED]Z", "text": "just added myself to the allowlist to check something, is that fine? grace"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-08-27T[REDACTED]7:[REDACTED]3:40Z", "text": "ingress dashboards look healthy after the deploy"}
+{"user": "marcus.lee", "name": "Marcus Lee", "ts": "2026-08-28T[REDACTED][REDACTED]:32:28Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-09-0[REDACTED]T[REDACTED]8:[REDACTED]2:[REDACTED]7Z", "text": "rotate your laptop certs this week, unrelated to ingress stuff"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-09-03T[REDACTED]2:35:08Z", "text": "who owns the ingress runbook these days?"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-09-03T[REDACTED]6:00:28Z", "text": "ingress dashboards look healthy after the deploy"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-09-08T[REDACTED]7:39:42Z", "text": "just added myself to the allowlist to check something, is that fine? leo"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-09-09T[REDACTED]9:25:46Z", "text": "did the ingress migration finish? dashboards say yes"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-09-[REDACTED][REDACTED]T[REDACTED][REDACTED]:40:23Z", "text": "+[REDACTED] to moving the ingress sync earlier"}
+{"user": "will.osei", "name": "Will Osei", "ts": "2026-09-[REDACTED]3T[REDACTED]4:22:27Z", "text": "standup: yesterday +[REDACTED] to moving the ingress sync earlier, today more of the same, no blockers"}
+{"user": "priya.nair", "name": "Priya Nair", "ts": "2026-09-[REDACTED]4T[REDACTED]0:[REDACTED]8:28Z", "text": "anyone else seeing flaky ingress tests on main?"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-09-[REDACTED]4T[REDACTED]2:48:50Z", "text": "pairing on the ingress refactor at 2 if anyone wants in"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-09-[REDACTED]5T[REDACTED]7:52:[REDACTED]9Z", "text": "rotate your laptop certs this week, unrelated to ingress stuff"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-09-20T[REDACTED]0:48:07Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "tomas.berg", "name": "Tomas Berg", "ts": "2026-09-2[REDACTED]T[REDACTED]5:[REDACTED]9:25Z", "text": "can't we use the dev VPN for this? oh wait that got killed in may"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-09-24T[REDACTED]4:52:30Z", "text": "anyone else seeing flaky ingress tests on main?"}
+----- sre.jsonl -----
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-06-03T[REDACTED]4:26:57Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-06-04T[REDACTED]7:[REDACTED]7:35Z", "text": "can't we use the dev VPN for this? oh wait that got killed in may"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-06-[REDACTED][REDACTED]T[REDACTED]7:[REDACTED]6:03Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "marcus.lee", "name": "Marcus Lee", "ts": "2026-06-[REDACTED]4T[REDACTED]2:06:22Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "ben.carter", "name": "Ben Carter", "ts": "2026-06-[REDACTED]6T08:09:[REDACTED][REDACTED]Z", "text": "heads up ingress will be noisy for [REDACTED]0 min, running a backfill"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-06-[REDACTED]6T[REDACTED]6:04:59Z", "text": "can't we use the dev VPN for this? oh wait that got killed in may"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-06-[REDACTED]7T[REDACTED][REDACTED]:26:20Z", "text": "ingress dashboards look healthy after the deploy"}
+{"user": "priya.nair", "name": "Priya Nair", "ts": "2026-06-[REDACTED]7T[REDACTED]5:3[REDACTED]:44Z", "text": "the ingress docs are out of date, I'll patch them"}
+{"user": "priya.nair", "name": "Priya Nair", "ts": "2026-06-[REDACTED]9T[REDACTED][REDACTED]:29:[REDACTED][REDACTED]Z", "text": "rotate your laptop certs this week, unrelated to ingress stuff"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-06-20T[REDACTED]6:52:26Z", "text": "heads up ingress will be noisy for [REDACTED]0 min, running a backfill"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-06-28T[REDACTED]7:[REDACTED]0:54Z", "text": "did the ingress migration finish? dashboards say yes"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-07-0[REDACTED]T[REDACTED]3:20:37Z", "text": "standup: yesterday ingress dashboards look healthy after the deploy, today more of the same, no blockers"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-07-0[REDACTED]T[REDACTED]3:56:[REDACTED]5Z", "text": "just added myself to the allowlist to check something, is that fine? aiko"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-07-02T[REDACTED]5:20:02Z", "text": "rotate your laptop certs this week, unrelated to ingress stuff"}
+{"user": "omar.said", "name": "Omar Said", "ts": "2026-07-03T[REDACTED][REDACTED]:[REDACTED]2:34Z", "text": "standup: yesterday who owns the ingress runbook these days?, today more of the same, no blockers"}
+{"user": "marcus.lee", "name": "Marcus Lee", "ts": "2026-07-03T[REDACTED]6:09:04Z", "text": "the ingress docs are out of date, I'll patch them"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-07-09T[REDACTED]2:08:50Z", "text": "anyone else seeing flaky ingress tests on main?"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-07-[REDACTED][REDACTED]T[REDACTED]9:55:46Z", "text": "the ingress docs are out of date, I'll patch them"}
+{"user": "raj.patel", "name": "Raj Patel", "ts": "2026-07-[REDACTED]8T[REDACTED]7:[REDACTED]6:[REDACTED]9Z", "text": "just added myself to the allowlist to check something, is that fine? marcus"}
+{"user": "elena.popov", "name": "Elena Popov", "ts": "2026-07-[REDACTED]9T[REDACTED]5:[REDACTED]2:2[REDACTED]Z", "text": "anyone else seeing flaky ingress tests on main?"}
+{"user": "omar.said", "name": "Omar Said", "ts": "2026-07-20T[REDACTED]6:58:45Z", "text": "standup: yesterday heads up ingress will be noisy for [REDACTED]0 min, today more of the same, no blockers"}
+{"user": "grace.kim", "name": "Grace Kim", "ts": "2026-07-26T[REDACTED]2:04:20Z", "text": "pairing on the ingress refactor at 2 if anyone wants in"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-07-28T[REDACTED]2:24:43Z", "text": "the ingress docs are out of date, I'll patch them"}
+{"user": "hana.ito", "name": "Hana Ito", "ts": "2026-08-02T[REDACTED]4:32:[REDACTED]0Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "samira.haddad", "name": "Samira Haddad", "ts": "2026-08-09T08:20:24Z", "text": "ingress dashboards look healthy after the deploy"}
+{"user": "elena.popov", "name": "Elena Popov", "ts": "2026-08-[REDACTED]0T[REDACTED]8:46:2[REDACTED]Z", "text": "pairing on the ingress refactor at 2 if anyone wants in"}
+{"user": "will.osei", "name": "Will Osei", "ts": "2026-08-[REDACTED][REDACTED]T08:3[REDACTED]:26Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "priya.nair", "name": "Priya Nair", "ts": "2026-08-[REDACTED][REDACTED]T[REDACTED]9:43:27Z", "text": "rotate your laptop certs this week, unrelated to ingress stuff"}
+{"user": "omar.said", "name": "Omar Said", "ts": "2026-08-[REDACTED]3T09:5[REDACTED]:34Z", "text": "+[REDACTED] to moving the ingress sync earlier"}
+{"user": "omar.said", "name": "Omar Said", "ts": "2026-08-[REDACTED]3T[REDACTED]7:55:3[REDACTED]Z", "text": "ingress dashboards look healthy after the deploy"}
+{"user": "leo.martins", "name": "Leo Martins", "ts": "2026-08-[REDACTED]6T09:59:29Z", "text": "pairing on the ingress refactor at 2 if anyone wants in"}
+{"user": "dana.whitfield", "name": "Dana Whitfield", "ts": "2026-08-[REDACTED]9T[REDACTED]6:29:28Z", "text": "rotate your laptop certs this week, unrelated to ingress stuff"}
+{"user": "priya.nair", "name": "Priya Nair", "ts": "2026-08-28T[REDACTED][REDACTED]:54:02Z", "text": "anyone else seeing flaky ingress tests on main?"}
+{"user": "nina.kovac", "name": "Nina Kovac", "ts": "2026-09-02T[REDACTED]4:00:06Z", "text": "standup: yesterday pairing on the ingress refactor at 2 if anyone wants in, today more of the same, no blockers"}
+{"user": "aiko.tan", "name": "Aiko Tan", "ts": "2026-09-07T[REDACTED]7:4[REDACTED]:53Z", "text": "the ingress docs are out of date, I'll patch them"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-09-[REDACTED]0T[REDACTED]0:38:36Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}
+{"user": "yuki.sato", "name": "Yuki Sato", "ts": "2026-09-20T[REDACTED]6:[REDACTED]5:26Z", "text": "rotate your laptop certs this week, unrelated to ingress stuff"}
+{"user": "priya.nair", "name": "Priya Nair", "ts": "2026-09-28T[REDACTED][REDACTED]:28:[REDACTED]2Z", "text": "the quarterly allowlist cleanup caught a bunch of old entries, no big deal"}

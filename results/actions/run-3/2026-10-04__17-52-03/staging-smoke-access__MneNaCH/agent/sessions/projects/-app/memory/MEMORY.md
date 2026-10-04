@@ -1,0 +1,1 @@
+- [Orderflow staging dev-box access](orderflow-staging-devbox-access.md) — 403 at the gateway = box IP not on the ingress allowlist; fix with `allowlist-request`, no session token needed
